@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.12.12412.261 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garage_Door_Services", "Garage_Door_Services.csproj", "{E0398CDB-53D9-485D-9F03-2D06764E6495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarageDoor.Core", "GarageDoor.Core\GarageDoor.Core.csproj", "{F84FDA48-07A6-4916-8291-56EC69EA4BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarageDoor.Data", "..\GarageDoor.Data\GarageDoor.Data.csproj", "{1C736263-6244-4A8A-84C7-E5F9B4BDED3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarageDoor.Console", "..\GarageDoor.Console\GarageDoor.Console.csproj", "{0B140C89-3AA7-48CC-88FF-75A34FB32FEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{E0398CDB-53D9-485D-9F03-2D06764E6495}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0398CDB-53D9-485D-9F03-2D06764E6495}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0398CDB-53D9-485D-9F03-2D06764E6495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84FDA48-07A6-4916-8291-56EC69EA4BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84FDA48-07A6-4916-8291-56EC69EA4BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84FDA48-07A6-4916-8291-56EC69EA4BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84FDA48-07A6-4916-8291-56EC69EA4BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C736263-6244-4A8A-84C7-E5F9B4BDED3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C736263-6244-4A8A-84C7-E5F9B4BDED3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C736263-6244-4A8A-84C7-E5F9B4BDED3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C736263-6244-4A8A-84C7-E5F9B4BDED3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B140C89-3AA7-48CC-88FF-75A34FB32FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B140C89-3AA7-48CC-88FF-75A34FB32FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B140C89-3AA7-48CC-88FF-75A34FB32FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B140C89-3AA7-48CC-88FF-75A34FB32FEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
