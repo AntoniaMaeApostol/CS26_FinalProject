@@ -32,6 +32,8 @@
             tabAddJob = new TabPage();
             tabAddJob_ControlTabs = new TabControl();
             tabAddJob_Job = new TabPage();
+            pictureBox1 = new PictureBox();
+            txtCity = new TextBox();
             groupBox3 = new GroupBox();
             btnClose = new Button();
             btnRecPayment = new Button();
@@ -62,7 +64,6 @@
             radioButton3 = new RadioButton();
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
-            pictureBox1 = new PictureBox();
             btnSaveJob = new Button();
             dateTimeJobCreated = new DateTimePicker();
             groupBox1 = new GroupBox();
@@ -85,7 +86,6 @@
             label13 = new Label();
             label11 = new Label();
             textBox4 = new TextBox();
-            comboCity = new ComboBox();
             comboState = new ComboBox();
             comboCountry = new ComboBox();
             cboTimezone = new ComboBox();
@@ -114,6 +114,8 @@
             lblAddJob_Job_Name = new Label();
             txtCompany = new TextBox();
             lblAddJob_Job_Company = new Label();
+            webViewMap = new Microsoft.Web.WebView2.WinForms.WebView2();
+            picWebView = new PictureBox();
             tabAddJob_Log = new TabPage();
             tabJobs = new TabPage();
             tabJobs_ControlTabs = new TabControl();
@@ -145,10 +147,12 @@
             tabAddJob.SuspendLayout();
             tabAddJob_ControlTabs.SuspendLayout();
             tabAddJob_Job.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)webViewMap).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picWebView).BeginInit();
             tabJobs.SuspendLayout();
             tabJobs_ControlTabs.SuspendLayout();
             tabMessages.SuspendLayout();
@@ -203,6 +207,8 @@
             // tabAddJob_Job
             // 
             tabAddJob_Job.BackColor = Color.FromArgb(212, 208, 200);
+            tabAddJob_Job.Controls.Add(pictureBox1);
+            tabAddJob_Job.Controls.Add(txtCity);
             tabAddJob_Job.Controls.Add(groupBox3);
             tabAddJob_Job.Controls.Add(groupBox2);
             tabAddJob_Job.Controls.Add(radioButton8);
@@ -213,7 +219,6 @@
             tabAddJob_Job.Controls.Add(radioButton3);
             tabAddJob_Job.Controls.Add(radioButton2);
             tabAddJob_Job.Controls.Add(radioButton1);
-            tabAddJob_Job.Controls.Add(pictureBox1);
             tabAddJob_Job.Controls.Add(btnSaveJob);
             tabAddJob_Job.Controls.Add(dateTimeJobCreated);
             tabAddJob_Job.Controls.Add(groupBox1);
@@ -229,7 +234,6 @@
             tabAddJob_Job.Controls.Add(label13);
             tabAddJob_Job.Controls.Add(label11);
             tabAddJob_Job.Controls.Add(textBox4);
-            tabAddJob_Job.Controls.Add(comboCity);
             tabAddJob_Job.Controls.Add(comboState);
             tabAddJob_Job.Controls.Add(comboCountry);
             tabAddJob_Job.Controls.Add(cboTimezone);
@@ -258,6 +262,8 @@
             tabAddJob_Job.Controls.Add(lblAddJob_Job_Name);
             tabAddJob_Job.Controls.Add(txtCompany);
             tabAddJob_Job.Controls.Add(lblAddJob_Job_Company);
+            tabAddJob_Job.Controls.Add(webViewMap);
+            tabAddJob_Job.Controls.Add(picWebView);
             tabAddJob_Job.ForeColor = SystemColors.InfoText;
             tabAddJob_Job.Location = new Point(4, 24);
             tabAddJob_Job.Name = "tabAddJob_Job";
@@ -265,6 +271,24 @@
             tabAddJob_Job.Size = new Size(1073, 902);
             tabAddJob_Job.TabIndex = 0;
             tabAddJob_Job.Text = "Job";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.AccessibleRole = AccessibleRole.None;
+            pictureBox1.Image = Properties.Resources._29853149_665d_4065_8474_c7665c93e8be;
+            pictureBox1.Location = new Point(912, 247);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(118, 105);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 54;
+            pictureBox1.TabStop = false;
+            // 
+            // txtCity
+            // 
+            txtCity.Location = new Point(447, 111);
+            txtCity.Name = "txtCity";
+            txtCity.Size = new Size(179, 23);
+            txtCity.TabIndex = 68;
             // 
             // groupBox3
             // 
@@ -605,16 +629,6 @@
             radioButton1.TabStop = true;
             radioButton1.UseVisualStyleBackColor = false;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources._29853149_665d_4065_8474_c7665c93e8be;
-            pictureBox1.Location = new Point(660, 23);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(377, 397);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 54;
-            pictureBox1.TabStop = false;
-            // 
             // btnSaveJob
             // 
             btnSaveJob.CausesValidation = false;
@@ -845,14 +859,6 @@
             textBox4.Size = new Size(614, 105);
             textBox4.TabIndex = 35;
             textBox4.Text = "Enter job notes here.";
-            // 
-            // comboCity
-            // 
-            comboCity.FormattingEnabled = true;
-            comboCity.Location = new Point(447, 111);
-            comboCity.Name = "comboCity";
-            comboCity.Size = new Size(177, 23);
-            comboCity.TabIndex = 34;
             // 
             // comboState
             // 
@@ -1106,6 +1112,26 @@
             lblAddJob_Job_Company.Size = new Size(61, 15);
             lblAddJob_Job_Company.TabIndex = 0;
             lblAddJob_Job_Company.Text = "Company:";
+            // 
+            // webViewMap
+            // 
+            webViewMap.AllowExternalDrop = true;
+            webViewMap.CreationProperties = null;
+            webViewMap.DefaultBackgroundColor = Color.White;
+            webViewMap.Location = new Point(661, 23);
+            webViewMap.Name = "webViewMap";
+            webViewMap.Size = new Size(369, 329);
+            webViewMap.TabIndex = 69;
+            webViewMap.ZoomFactor = 1D;
+            // 
+            // picWebView
+            // 
+            picWebView.AccessibleRole = AccessibleRole.None;
+            picWebView.Location = new Point(661, 23);
+            picWebView.Name = "picWebView";
+            picWebView.Size = new Size(369, 329);
+            picWebView.TabIndex = 67;
+            picWebView.TabStop = false;
             // 
             // tabAddJob_Log
             // 
@@ -1408,13 +1434,15 @@
             tabAddJob_ControlTabs.ResumeLayout(false);
             tabAddJob_Job.ResumeLayout(false);
             tabAddJob_Job.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)webViewMap).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picWebView).EndInit();
             tabJobs.ResumeLayout(false);
             tabJobs_ControlTabs.ResumeLayout(false);
             tabMessages.ResumeLayout(false);
@@ -1490,7 +1518,6 @@
         private Label label5;
         private ComboBox cboTimezone;
         private TextBox textBox4;
-        private ComboBox comboCity;
         private ComboBox comboState;
         private ComboBox comboCountry;
         private Label label11;
@@ -1548,5 +1575,8 @@
         private TextBox txtBalance;
         private TextBox txtTotalPaid;
         private Button btnSaveJob;
+        private PictureBox picWebView;
+        private TextBox txtCity;
+        private Microsoft.Web.WebView2.WinForms.WebView2 webViewMap;
     }
 }
