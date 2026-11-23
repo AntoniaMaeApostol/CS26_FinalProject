@@ -33,25 +33,25 @@
             tabAddJob_ControlTabs = new TabControl();
             tabAddJob_Job = new TabPage();
             groupBox3 = new GroupBox();
-            button5 = new Button();
-            button4 = new Button();
-            textBox15 = new TextBox();
-            textBox14 = new TextBox();
+            btnClose = new Button();
+            btnRecPayment = new Button();
+            txtBalance = new TextBox();
+            txtTotalPaid = new TextBox();
             label27 = new Label();
             label26 = new Label();
-            textBox13 = new TextBox();
+            txtTotal = new TextBox();
             label25 = new Label();
-            textBox12 = new TextBox();
+            txtPartCost = new TextBox();
             label24 = new Label();
-            textBox8 = new TextBox();
+            txtAddCharge = new TextBox();
             label23 = new Label();
-            comboBox4 = new ComboBox();
+            comboPayMethod = new ComboBox();
             textBox6 = new TextBox();
             label12 = new Label();
             label22 = new Label();
             groupBox2 = new GroupBox();
-            textBox5 = new TextBox();
-            comboBox12 = new ComboBox();
+            txtReasonCancel = new TextBox();
+            comboWho = new ComboBox();
             label20 = new Label();
             label21 = new Label();
             radioButton8 = new RadioButton();
@@ -63,33 +63,33 @@
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
             pictureBox1 = new PictureBox();
-            button3 = new Button();
-            dateTimePicker2 = new DateTimePicker();
+            btnSaveJob = new Button();
+            dateTimeJobCreated = new DateTimePicker();
             groupBox1 = new GroupBox();
-            comboBox10 = new ComboBox();
-            comboBox9 = new ComboBox();
-            button2 = new Button();
+            comboEndTIme = new ComboBox();
+            comboStartTime = new ComboBox();
+            btnClearAppt = new Button();
             label19 = new Label();
             label18 = new Label();
             label17 = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            comboBox8 = new ComboBox();
+            dateTimeAppt = new DateTimePicker();
+            comboJobDesc = new ComboBox();
             label16 = new Label();
-            checkBox3 = new CheckBox();
-            checkBox1 = new CheckBox();
-            comboBox7 = new ComboBox();
+            chckEmail = new CheckBox();
+            chckSMS = new CheckBox();
+            comboTech = new ComboBox();
             label15 = new Label();
-            comboBox6 = new ComboBox();
+            comboAdSource = new ComboBox();
             label14 = new Label();
-            comboBox5 = new ComboBox();
+            comboStatus = new ComboBox();
             label13 = new Label();
             label11 = new Label();
             textBox4 = new TextBox();
-            comboBox3 = new ComboBox();
-            comboBox2 = new ComboBox();
-            comboBox1 = new ComboBox();
+            comboCity = new ComboBox();
+            comboState = new ComboBox();
+            comboCountry = new ComboBox();
             cboTimezone = new ComboBox();
-            button1 = new Button();
+            btnMapIt = new Button();
             label10 = new Label();
             label9 = new Label();
             label8 = new Label();
@@ -97,17 +97,17 @@
             label6 = new Label();
             textBox11 = new TextBox();
             textBox10 = new TextBox();
-            textBox9 = new TextBox();
-            textBox7 = new TextBox();
+            txtZip = new TextBox();
+            txtAddress = new TextBox();
             label5 = new Label();
             label1 = new Label();
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
             lblPhone2 = new Label();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            txtMetro = new TextBox();
+            txtEmail = new TextBox();
+            txtPhone2 = new TextBox();
             txtPhone = new TextBox();
             lblAddJob_Job_Phone = new Label();
             txtName = new TextBox();
@@ -214,26 +214,26 @@
             tabAddJob_Job.Controls.Add(radioButton2);
             tabAddJob_Job.Controls.Add(radioButton1);
             tabAddJob_Job.Controls.Add(pictureBox1);
-            tabAddJob_Job.Controls.Add(button3);
-            tabAddJob_Job.Controls.Add(dateTimePicker2);
+            tabAddJob_Job.Controls.Add(btnSaveJob);
+            tabAddJob_Job.Controls.Add(dateTimeJobCreated);
             tabAddJob_Job.Controls.Add(groupBox1);
-            tabAddJob_Job.Controls.Add(comboBox8);
+            tabAddJob_Job.Controls.Add(comboJobDesc);
             tabAddJob_Job.Controls.Add(label16);
-            tabAddJob_Job.Controls.Add(checkBox3);
-            tabAddJob_Job.Controls.Add(checkBox1);
-            tabAddJob_Job.Controls.Add(comboBox7);
+            tabAddJob_Job.Controls.Add(chckEmail);
+            tabAddJob_Job.Controls.Add(chckSMS);
+            tabAddJob_Job.Controls.Add(comboTech);
             tabAddJob_Job.Controls.Add(label15);
-            tabAddJob_Job.Controls.Add(comboBox6);
+            tabAddJob_Job.Controls.Add(comboAdSource);
             tabAddJob_Job.Controls.Add(label14);
-            tabAddJob_Job.Controls.Add(comboBox5);
+            tabAddJob_Job.Controls.Add(comboStatus);
             tabAddJob_Job.Controls.Add(label13);
             tabAddJob_Job.Controls.Add(label11);
             tabAddJob_Job.Controls.Add(textBox4);
-            tabAddJob_Job.Controls.Add(comboBox3);
-            tabAddJob_Job.Controls.Add(comboBox2);
-            tabAddJob_Job.Controls.Add(comboBox1);
+            tabAddJob_Job.Controls.Add(comboCity);
+            tabAddJob_Job.Controls.Add(comboState);
+            tabAddJob_Job.Controls.Add(comboCountry);
             tabAddJob_Job.Controls.Add(cboTimezone);
-            tabAddJob_Job.Controls.Add(button1);
+            tabAddJob_Job.Controls.Add(btnMapIt);
             tabAddJob_Job.Controls.Add(label10);
             tabAddJob_Job.Controls.Add(label9);
             tabAddJob_Job.Controls.Add(label8);
@@ -241,17 +241,17 @@
             tabAddJob_Job.Controls.Add(label6);
             tabAddJob_Job.Controls.Add(textBox11);
             tabAddJob_Job.Controls.Add(textBox10);
-            tabAddJob_Job.Controls.Add(textBox9);
-            tabAddJob_Job.Controls.Add(textBox7);
+            tabAddJob_Job.Controls.Add(txtZip);
+            tabAddJob_Job.Controls.Add(txtAddress);
             tabAddJob_Job.Controls.Add(label5);
             tabAddJob_Job.Controls.Add(label1);
             tabAddJob_Job.Controls.Add(label4);
             tabAddJob_Job.Controls.Add(label3);
             tabAddJob_Job.Controls.Add(label2);
             tabAddJob_Job.Controls.Add(lblPhone2);
-            tabAddJob_Job.Controls.Add(textBox3);
-            tabAddJob_Job.Controls.Add(textBox2);
-            tabAddJob_Job.Controls.Add(textBox1);
+            tabAddJob_Job.Controls.Add(txtMetro);
+            tabAddJob_Job.Controls.Add(txtEmail);
+            tabAddJob_Job.Controls.Add(txtPhone2);
             tabAddJob_Job.Controls.Add(txtPhone);
             tabAddJob_Job.Controls.Add(lblAddJob_Job_Phone);
             tabAddJob_Job.Controls.Add(txtName);
@@ -268,19 +268,19 @@
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(button5);
-            groupBox3.Controls.Add(button4);
-            groupBox3.Controls.Add(textBox15);
-            groupBox3.Controls.Add(textBox14);
+            groupBox3.Controls.Add(btnClose);
+            groupBox3.Controls.Add(btnRecPayment);
+            groupBox3.Controls.Add(txtBalance);
+            groupBox3.Controls.Add(txtTotalPaid);
             groupBox3.Controls.Add(label27);
             groupBox3.Controls.Add(label26);
-            groupBox3.Controls.Add(textBox13);
+            groupBox3.Controls.Add(txtTotal);
             groupBox3.Controls.Add(label25);
-            groupBox3.Controls.Add(textBox12);
+            groupBox3.Controls.Add(txtPartCost);
             groupBox3.Controls.Add(label24);
-            groupBox3.Controls.Add(textBox8);
+            groupBox3.Controls.Add(txtAddCharge);
             groupBox3.Controls.Add(label23);
-            groupBox3.Controls.Add(comboBox4);
+            groupBox3.Controls.Add(comboPayMethod);
             groupBox3.Controls.Add(textBox6);
             groupBox3.Controls.Add(label12);
             groupBox3.Controls.Add(label22);
@@ -293,39 +293,39 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Pending Close Info";
             // 
-            // button5
+            // btnClose
             // 
-            button5.ForeColor = SystemColors.InfoText;
-            button5.Location = new Point(827, 139);
-            button5.Name = "button5";
-            button5.Size = new Size(74, 23);
-            button5.TabIndex = 78;
-            button5.Text = "Close";
-            button5.UseVisualStyleBackColor = true;
+            btnClose.ForeColor = SystemColors.InfoText;
+            btnClose.Location = new Point(827, 139);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new Size(74, 23);
+            btnClose.TabIndex = 78;
+            btnClose.Text = "Close";
+            btnClose.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnRecPayment
             // 
-            button4.ForeColor = SystemColors.InfoText;
-            button4.Location = new Point(907, 139);
-            button4.Name = "button4";
-            button4.Size = new Size(124, 23);
-            button4.TabIndex = 67;
-            button4.Text = "Record Payment";
-            button4.UseVisualStyleBackColor = true;
+            btnRecPayment.ForeColor = SystemColors.InfoText;
+            btnRecPayment.Location = new Point(907, 139);
+            btnRecPayment.Name = "btnRecPayment";
+            btnRecPayment.Size = new Size(124, 23);
+            btnRecPayment.TabIndex = 67;
+            btnRecPayment.Text = "Record Payment";
+            btnRecPayment.UseVisualStyleBackColor = true;
             // 
-            // textBox15
+            // txtBalance
             // 
-            textBox15.Location = new Point(567, 93);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(189, 23);
-            textBox15.TabIndex = 77;
+            txtBalance.Location = new Point(567, 93);
+            txtBalance.Name = "txtBalance";
+            txtBalance.Size = new Size(189, 23);
+            txtBalance.TabIndex = 77;
             // 
-            // textBox14
+            // txtTotalPaid
             // 
-            textBox14.Location = new Point(567, 57);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(189, 23);
-            textBox14.TabIndex = 76;
+            txtTotalPaid.Location = new Point(567, 57);
+            txtTotalPaid.Name = "txtTotalPaid";
+            txtTotalPaid.Size = new Size(189, 23);
+            txtTotalPaid.TabIndex = 76;
             // 
             // label27
             // 
@@ -349,12 +349,12 @@
             label26.TabIndex = 74;
             label26.Text = "Total Paid:";
             // 
-            // textBox13
+            // txtTotal
             // 
-            textBox13.Location = new Point(135, 125);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(189, 23);
-            textBox13.TabIndex = 73;
+            txtTotal.Location = new Point(135, 125);
+            txtTotal.Name = "txtTotal";
+            txtTotal.Size = new Size(189, 23);
+            txtTotal.TabIndex = 73;
             // 
             // label25
             // 
@@ -367,12 +367,12 @@
             label25.TabIndex = 72;
             label25.Text = "Total:";
             // 
-            // textBox12
+            // txtPartCost
             // 
-            textBox12.Location = new Point(135, 93);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(189, 23);
-            textBox12.TabIndex = 71;
+            txtPartCost.Location = new Point(135, 93);
+            txtPartCost.Name = "txtPartCost";
+            txtPartCost.Size = new Size(189, 23);
+            txtPartCost.TabIndex = 71;
             // 
             // label24
             // 
@@ -385,12 +385,12 @@
             label24.TabIndex = 70;
             label24.Text = "Part Cost:";
             // 
-            // textBox8
+            // txtAddCharge
             // 
-            textBox8.Location = new Point(135, 57);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(189, 23);
-            textBox8.TabIndex = 69;
+            txtAddCharge.Location = new Point(135, 57);
+            txtAddCharge.Name = "txtAddCharge";
+            txtAddCharge.Size = new Size(189, 23);
+            txtAddCharge.TabIndex = 69;
             // 
             // label23
             // 
@@ -403,14 +403,14 @@
             label23.TabIndex = 68;
             label23.Text = "Additional Charge:";
             // 
-            // comboBox4
+            // comboPayMethod
             // 
-            comboBox4.FormattingEnabled = true;
-            comboBox4.Items.AddRange(new object[] { "Cash", "Gcash", "Paypal", "Maya", "Card" });
-            comboBox4.Location = new Point(567, 22);
-            comboBox4.Name = "comboBox4";
-            comboBox4.Size = new Size(151, 23);
-            comboBox4.TabIndex = 67;
+            comboPayMethod.FormattingEnabled = true;
+            comboPayMethod.Items.AddRange(new object[] { "Cash", "Gcash", "Paypal", "Maya", "Card" });
+            comboPayMethod.Location = new Point(567, 22);
+            comboPayMethod.Name = "comboPayMethod";
+            comboPayMethod.Size = new Size(151, 23);
+            comboPayMethod.TabIndex = 67;
             // 
             // textBox6
             // 
@@ -443,8 +443,8 @@
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(textBox5);
-            groupBox2.Controls.Add(comboBox12);
+            groupBox2.Controls.Add(txtReasonCancel);
+            groupBox2.Controls.Add(comboWho);
             groupBox2.Controls.Add(label20);
             groupBox2.Controls.Add(label21);
             groupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
@@ -456,24 +456,24 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "Cancelled";
             // 
-            // textBox5
+            // txtReasonCancel
             // 
-            textBox5.Location = new Point(371, 25);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(365, 23);
-            textBox5.TabIndex = 67;
+            txtReasonCancel.Location = new Point(371, 25);
+            txtReasonCancel.Name = "txtReasonCancel";
+            txtReasonCancel.Size = new Size(365, 23);
+            txtReasonCancel.TabIndex = 67;
             // 
-            // comboBox12
+            // comboWho
             // 
-            comboBox12.Font = new Font("Segoe UI", 9F);
-            comboBox12.ForeColor = Color.FromArgb(150, 150, 150);
-            comboBox12.FormattingEnabled = true;
-            comboBox12.Items.AddRange(new object[] { "Client", "Office", "Technician" });
-            comboBox12.Location = new Point(65, 25);
-            comboBox12.Name = "comboBox12";
-            comboBox12.Size = new Size(151, 23);
-            comboBox12.TabIndex = 66;
-            comboBox12.Text = "Who Canceled?";
+            comboWho.Font = new Font("Segoe UI", 9F);
+            comboWho.ForeColor = Color.FromArgb(150, 150, 150);
+            comboWho.FormattingEnabled = true;
+            comboWho.Items.AddRange(new object[] { "Client", "Office", "Technician" });
+            comboWho.Location = new Point(65, 25);
+            comboWho.Name = "comboWho";
+            comboWho.Size = new Size(151, 23);
+            comboWho.TabIndex = 66;
+            comboWho.Text = "Who Canceled?";
             // 
             // label20
             // 
@@ -615,34 +615,35 @@
             pictureBox1.TabIndex = 54;
             pictureBox1.TabStop = false;
             // 
-            // button3
+            // btnSaveJob
             // 
-            button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.ForeColor = Color.FromArgb(0, 192, 0);
-            button3.Location = new Point(960, 860);
-            button3.Name = "button3";
-            button3.Size = new Size(107, 36);
-            button3.TabIndex = 53;
-            button3.Text = "Save Job";
-            button3.UseVisualStyleBackColor = true;
+            btnSaveJob.CausesValidation = false;
+            btnSaveJob.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSaveJob.ForeColor = Color.FromArgb(0, 192, 0);
+            btnSaveJob.Location = new Point(960, 860);
+            btnSaveJob.Name = "btnSaveJob";
+            btnSaveJob.Size = new Size(107, 36);
+            btnSaveJob.TabIndex = 53;
+            btnSaveJob.Text = "Save Job";
+            btnSaveJob.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker2
+            // dateTimeJobCreated
             // 
-            dateTimePicker2.Format = DateTimePickerFormat.Short;
-            dateTimePicker2.Location = new Point(92, 375);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(122, 23);
-            dateTimePicker2.TabIndex = 1;
+            dateTimeJobCreated.Format = DateTimePickerFormat.Short;
+            dateTimeJobCreated.Location = new Point(92, 375);
+            dateTimeJobCreated.Name = "dateTimeJobCreated";
+            dateTimeJobCreated.Size = new Size(122, 23);
+            dateTimeJobCreated.TabIndex = 1;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(comboBox10);
-            groupBox1.Controls.Add(comboBox9);
-            groupBox1.Controls.Add(button2);
+            groupBox1.Controls.Add(comboEndTIme);
+            groupBox1.Controls.Add(comboStartTime);
+            groupBox1.Controls.Add(btnClearAppt);
             groupBox1.Controls.Add(label19);
             groupBox1.Controls.Add(label18);
             groupBox1.Controls.Add(label17);
-            groupBox1.Controls.Add(dateTimePicker1);
+            groupBox1.Controls.Add(dateTimeAppt);
             groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             groupBox1.ForeColor = SystemColors.MenuHighlight;
             groupBox1.Location = new Point(17, 556);
@@ -652,33 +653,33 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Appointment";
             // 
-            // comboBox10
+            // comboEndTIme
             // 
-            comboBox10.FormattingEnabled = true;
-            comboBox10.Items.AddRange(new object[] { "7:00am", "7:30am", "8:00am", "8:30am", "9:00am", "9:30am", "10:00am", "10:30am", "11:00am", "11:30am", "12:00pm", "12:30pm", "1:00pm", "1:30pm", "2:00pm", "2:30pm", "3:00pm", "3:30pm", "4:00pm", "4:30pm", "5:00pm", "5:30pm", "6:00pm", "6:30pm", "7:00pm" });
-            comboBox10.Location = new Point(585, 22);
-            comboBox10.Name = "comboBox10";
-            comboBox10.Size = new Size(151, 23);
-            comboBox10.TabIndex = 66;
+            comboEndTIme.FormattingEnabled = true;
+            comboEndTIme.Items.AddRange(new object[] { "7:00am", "7:30am", "8:00am", "8:30am", "9:00am", "9:30am", "10:00am", "10:30am", "11:00am", "11:30am", "12:00pm", "12:30pm", "1:00pm", "1:30pm", "2:00pm", "2:30pm", "3:00pm", "3:30pm", "4:00pm", "4:30pm", "5:00pm", "5:30pm", "6:00pm", "6:30pm", "7:00pm" });
+            comboEndTIme.Location = new Point(585, 22);
+            comboEndTIme.Name = "comboEndTIme";
+            comboEndTIme.Size = new Size(151, 23);
+            comboEndTIme.TabIndex = 66;
             // 
-            // comboBox9
+            // comboStartTime
             // 
-            comboBox9.FormattingEnabled = true;
-            comboBox9.Items.AddRange(new object[] { "7:00am", "7:30am", "8:00am", "8:30am", "9:00am", "9:30am", "10:00am", "10:30am", "11:00am", "11:30am", "12:00pm", "12:30pm", "1:00pm", "1:30pm", "2:00pm", "2:30pm", "3:00pm", "3:30pm", "4:00pm", "4:30pm", "5:00pm", "5:30pm", "6:00pm", "6:30pm", "7:00pm" });
-            comboBox9.Location = new Point(393, 23);
-            comboBox9.Name = "comboBox9";
-            comboBox9.Size = new Size(151, 23);
-            comboBox9.TabIndex = 65;
+            comboStartTime.FormattingEnabled = true;
+            comboStartTime.Items.AddRange(new object[] { "7:00am", "7:30am", "8:00am", "8:30am", "9:00am", "9:30am", "10:00am", "10:30am", "11:00am", "11:30am", "12:00pm", "12:30pm", "1:00pm", "1:30pm", "2:00pm", "2:30pm", "3:00pm", "3:30pm", "4:00pm", "4:30pm", "5:00pm", "5:30pm", "6:00pm", "6:30pm", "7:00pm" });
+            comboStartTime.Location = new Point(393, 23);
+            comboStartTime.Name = "comboStartTime";
+            comboStartTime.Size = new Size(151, 23);
+            comboStartTime.TabIndex = 65;
             // 
-            // button2
+            // btnClearAppt
             // 
-            button2.ForeColor = SystemColors.InfoText;
-            button2.Location = new Point(907, 22);
-            button2.Name = "button2";
-            button2.Size = new Size(124, 23);
-            button2.TabIndex = 58;
-            button2.Text = "Clear Appointment\r\n";
-            button2.UseVisualStyleBackColor = true;
+            btnClearAppt.ForeColor = SystemColors.InfoText;
+            btnClearAppt.Location = new Point(907, 22);
+            btnClearAppt.Name = "btnClearAppt";
+            btnClearAppt.Size = new Size(124, 23);
+            btnClearAppt.TabIndex = 58;
+            btnClearAppt.Text = "Clear Appointment\r\n";
+            btnClearAppt.UseVisualStyleBackColor = true;
             // 
             // label19
             // 
@@ -713,23 +714,23 @@
             label17.TabIndex = 53;
             label17.Text = "Date:";
             // 
-            // dateTimePicker1
+            // dateTimeAppt
             // 
-            dateTimePicker1.Location = new Point(64, 22);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(193, 23);
-            dateTimePicker1.TabIndex = 0;
+            dateTimeAppt.Location = new Point(64, 22);
+            dateTimeAppt.Name = "dateTimeAppt";
+            dateTimeAppt.Size = new Size(193, 23);
+            dateTimeAppt.TabIndex = 0;
             // 
-            // comboBox8
+            // comboJobDesc
             // 
-            comboBox8.ForeColor = Color.FromArgb(150, 150, 150);
-            comboBox8.FormattingEnabled = true;
-            comboBox8.Items.AddRange(new object[] { "Installation and Replacement", "Repairs", "Routine Maintenance", "Emergency and Commercial Services" });
-            comboBox8.Location = new Point(419, 503);
-            comboBox8.Name = "comboBox8";
-            comboBox8.Size = new Size(207, 23);
-            comboBox8.TabIndex = 51;
-            comboBox8.Text = "Select Description";
+            comboJobDesc.ForeColor = Color.FromArgb(150, 150, 150);
+            comboJobDesc.FormattingEnabled = true;
+            comboJobDesc.Items.AddRange(new object[] { "Installation and Replacement", "Repairs", "Routine Maintenance", "Emergency and Commercial Services" });
+            comboJobDesc.Location = new Point(419, 503);
+            comboJobDesc.Name = "comboJobDesc";
+            comboJobDesc.Size = new Size(207, 23);
+            comboJobDesc.TabIndex = 51;
+            comboJobDesc.Text = "Select Description";
             // 
             // label16
             // 
@@ -742,35 +743,35 @@
             label16.TabIndex = 50;
             label16.Text = "Job Description:";
             // 
-            // checkBox3
+            // chckEmail
             // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(429, 456);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(60, 19);
-            checkBox3.TabIndex = 48;
-            checkBox3.Text = "E-mail";
-            checkBox3.UseVisualStyleBackColor = true;
+            chckEmail.AutoSize = true;
+            chckEmail.Location = new Point(429, 456);
+            chckEmail.Name = "chckEmail";
+            chckEmail.Size = new Size(60, 19);
+            chckEmail.TabIndex = 48;
+            chckEmail.Text = "E-mail";
+            chckEmail.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // chckSMS
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(429, 431);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(49, 19);
-            checkBox1.TabIndex = 46;
-            checkBox1.Text = "SMS";
-            checkBox1.UseVisualStyleBackColor = true;
+            chckSMS.AutoSize = true;
+            chckSMS.Location = new Point(429, 431);
+            chckSMS.Name = "chckSMS";
+            chckSMS.Size = new Size(49, 19);
+            chckSMS.TabIndex = 46;
+            chckSMS.Text = "SMS";
+            chckSMS.UseVisualStyleBackColor = true;
             // 
-            // comboBox7
+            // comboTech
             // 
-            comboBox7.ForeColor = Color.FromArgb(150, 150, 150);
-            comboBox7.FormattingEnabled = true;
-            comboBox7.Location = new Point(419, 397);
-            comboBox7.Name = "comboBox7";
-            comboBox7.Size = new Size(207, 23);
-            comboBox7.TabIndex = 45;
-            comboBox7.Text = "Select a Technician";
+            comboTech.ForeColor = Color.FromArgb(150, 150, 150);
+            comboTech.FormattingEnabled = true;
+            comboTech.Location = new Point(419, 397);
+            comboTech.Name = "comboTech";
+            comboTech.Size = new Size(207, 23);
+            comboTech.TabIndex = 45;
+            comboTech.Text = "Select a Technician";
             // 
             // label15
             // 
@@ -783,16 +784,16 @@
             label15.TabIndex = 44;
             label15.Text = "Technician:";
             // 
-            // comboBox6
+            // comboAdSource
             // 
-            comboBox6.ForeColor = Color.FromArgb(150, 150, 150);
-            comboBox6.FormattingEnabled = true;
-            comboBox6.Items.AddRange(new object[] { "Google Ads", "Website Ticket", "Referral", "Other" });
-            comboBox6.Location = new Point(92, 502);
-            comboBox6.Name = "comboBox6";
-            comboBox6.Size = new Size(196, 23);
-            comboBox6.TabIndex = 43;
-            comboBox6.Text = "Select an Ad Source";
+            comboAdSource.ForeColor = Color.FromArgb(150, 150, 150);
+            comboAdSource.FormattingEnabled = true;
+            comboAdSource.Items.AddRange(new object[] { "Google Ads", "Website Ticket", "Referral", "Other" });
+            comboAdSource.Location = new Point(92, 502);
+            comboAdSource.Name = "comboAdSource";
+            comboAdSource.Size = new Size(196, 23);
+            comboAdSource.TabIndex = 43;
+            comboAdSource.Text = "Select an Ad Source";
             // 
             // label14
             // 
@@ -804,14 +805,14 @@
             label14.TabIndex = 42;
             label14.Text = "Ad Source:";
             // 
-            // comboBox5
+            // comboStatus
             // 
-            comboBox5.FormattingEnabled = true;
-            comboBox5.Items.AddRange(new object[] { "Accepted", "In Progress", "Cancelled", "Pending close", "Closed" });
-            comboBox5.Location = new Point(92, 437);
-            comboBox5.Name = "comboBox5";
-            comboBox5.Size = new Size(151, 23);
-            comboBox5.TabIndex = 41;
+            comboStatus.FormattingEnabled = true;
+            comboStatus.Items.AddRange(new object[] { "Accepted", "In Progress", "Cancelled", "Pending close", "Closed" });
+            comboStatus.Location = new Point(92, 437);
+            comboStatus.Name = "comboStatus";
+            comboStatus.Size = new Size(151, 23);
+            comboStatus.TabIndex = 41;
             // 
             // label13
             // 
@@ -845,33 +846,33 @@
             textBox4.TabIndex = 35;
             textBox4.Text = "Enter job notes here.";
             // 
-            // comboBox3
+            // comboCity
             // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(447, 111);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(177, 23);
-            comboBox3.TabIndex = 34;
+            comboCity.FormattingEnabled = true;
+            comboCity.Location = new Point(447, 111);
+            comboCity.Name = "comboCity";
+            comboCity.Size = new Size(177, 23);
+            comboCity.TabIndex = 34;
             // 
-            // comboBox2
+            // comboState
             // 
-            comboBox2.ForeColor = Color.FromArgb(150, 150, 150);
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(448, 53);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(177, 23);
-            comboBox2.TabIndex = 33;
-            comboBox2.Text = "Select State";
+            comboState.ForeColor = Color.FromArgb(150, 150, 150);
+            comboState.FormattingEnabled = true;
+            comboState.Location = new Point(448, 53);
+            comboState.Name = "comboState";
+            comboState.Size = new Size(177, 23);
+            comboState.TabIndex = 33;
+            comboState.Text = "Select State";
             // 
-            // comboBox1
+            // comboCountry
             // 
-            comboBox1.ForeColor = Color.FromArgb(150, 150, 150);
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(449, 23);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(177, 23);
-            comboBox1.TabIndex = 32;
-            comboBox1.Text = "Select Country";
+            comboCountry.ForeColor = Color.FromArgb(150, 150, 150);
+            comboCountry.FormattingEnabled = true;
+            comboCountry.Location = new Point(449, 23);
+            comboCountry.Name = "comboCountry";
+            comboCountry.Size = new Size(177, 23);
+            comboCountry.TabIndex = 32;
+            comboCountry.Text = "Select Country";
             // 
             // cboTimezone
             // 
@@ -881,14 +882,14 @@
             cboTimezone.Size = new Size(177, 23);
             cboTimezone.TabIndex = 31;
             // 
-            // button1
+            // btnMapIt
             // 
-            button1.Location = new Point(569, 140);
-            button1.Name = "button1";
-            button1.Size = new Size(57, 23);
-            button1.TabIndex = 30;
-            button1.Text = "Map it";
-            button1.UseVisualStyleBackColor = true;
+            btnMapIt.Location = new Point(569, 140);
+            btnMapIt.Name = "btnMapIt";
+            btnMapIt.Size = new Size(57, 23);
+            btnMapIt.TabIndex = 30;
+            btnMapIt.Text = "Map it";
+            btnMapIt.UseVisualStyleBackColor = true;
             // 
             // label10
             // 
@@ -957,19 +958,19 @@
             textBox10.Size = new Size(178, 23);
             textBox10.TabIndex = 23;
             // 
-            // textBox9
+            // txtZip
             // 
-            textBox9.Location = new Point(447, 140);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(116, 23);
-            textBox9.TabIndex = 22;
+            txtZip.Location = new Point(447, 140);
+            txtZip.Name = "txtZip";
+            txtZip.Size = new Size(116, 23);
+            txtZip.TabIndex = 22;
             // 
-            // textBox7
+            // txtAddress
             // 
-            textBox7.Location = new Point(448, 82);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(178, 23);
-            textBox7.TabIndex = 20;
+            txtAddress.Location = new Point(448, 82);
+            txtAddress.Name = "txtAddress";
+            txtAddress.Size = new Size(178, 23);
+            txtAddress.TabIndex = 20;
             // 
             // label5
             // 
@@ -1033,26 +1034,26 @@
             lblPhone2.TabIndex = 11;
             lblPhone2.Text = "Phone 2:";
             // 
-            // textBox3
+            // txtMetro
             // 
-            textBox3.Location = new Point(82, 169);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(178, 23);
-            textBox3.TabIndex = 8;
+            txtMetro.Location = new Point(82, 169);
+            txtMetro.Name = "txtMetro";
+            txtMetro.Size = new Size(178, 23);
+            txtMetro.TabIndex = 8;
             // 
-            // textBox2
+            // txtEmail
             // 
-            textBox2.Location = new Point(83, 140);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(178, 23);
-            textBox2.TabIndex = 7;
+            txtEmail.Location = new Point(83, 140);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(178, 23);
+            txtEmail.TabIndex = 7;
             // 
-            // textBox1
+            // txtPhone2
             // 
-            textBox1.Location = new Point(83, 111);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(177, 23);
-            textBox1.TabIndex = 6;
+            txtPhone2.Location = new Point(83, 111);
+            txtPhone2.Name = "txtPhone2";
+            txtPhone2.Size = new Size(177, 23);
+            txtPhone2.TabIndex = 6;
             // 
             // txtPhone
             // 
@@ -1469,14 +1470,14 @@
         private Label lblUserName;
         private Button btnLogout;
         private Label lblPhone2;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox txtMetro;
+        private TextBox txtEmail;
+        private TextBox txtPhone2;
         private Label label3;
         private Label label2;
         private Label label4;
         private Label label1;
-        private Button button1;
+        private Button btnMapIt;
         private Label label10;
         private Label label9;
         private Label label8;
@@ -1484,30 +1485,30 @@
         private Label label6;
         private TextBox textBox11;
         private TextBox textBox10;
-        private TextBox textBox9;
-        private TextBox textBox7;
+        private TextBox txtZip;
+        private TextBox txtAddress;
         private Label label5;
         private ComboBox cboTimezone;
         private TextBox textBox4;
-        private ComboBox comboBox3;
-        private ComboBox comboBox2;
-        private ComboBox comboBox1;
+        private ComboBox comboCity;
+        private ComboBox comboState;
+        private ComboBox comboCountry;
         private Label label11;
-        private ComboBox comboBox6;
+        private ComboBox comboAdSource;
         private Label label14;
-        private ComboBox comboBox5;
+        private ComboBox comboStatus;
         private Label label13;
-        private ComboBox comboBox8;
+        private ComboBox comboJobDesc;
         private Label label16;
-        private CheckBox checkBox3;
-        private CheckBox checkBox1;
-        private ComboBox comboBox7;
+        private CheckBox chckEmail;
+        private CheckBox chckSMS;
+        private ComboBox comboTech;
         private Label label15;
-        private DateTimePicker dateTimePicker2;
+        private DateTimePicker dateTimeJobCreated;
         private GroupBox groupBox1;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dateTimeAppt;
         private Label label17;
-        private Button button2;
+        private Button btnClearAppt;
         private Label label19;
         private Label label18;
         private Button button3;
@@ -1520,29 +1521,32 @@
         private RadioButton radioButton3;
         private RadioButton radioButton2;
         private RadioButton radioButton8;
-        private ComboBox comboBox9;
-        private ComboBox comboBox10;
+        private ComboBox comboStartTime;
+        private ComboBox comboEndTIme;
         private GroupBox groupBox2;
-        private TextBox textBox5;
-        private ComboBox comboBox12;
+        private TextBox txtReasonCancel;
+        private ComboBox comboWho;
         private Label label20;
         private Label label21;
         private GroupBox groupBox3;
+        private Button btnClose;
         private ComboBox comboBox4;
         private TextBox textBox6;
         private Label label12;
         private Label label22;
-        private TextBox textBox8;
+        private TextBox txtAddCharge;
         private Label label23;
+        private ComboBox comboPayMethod;
         private Label label27;
         private Label label26;
-        private TextBox textBox13;
+        private TextBox txtTotal;
         private Label label25;
-        private TextBox textBox12;
+        private TextBox txtPartCost;
         private Label label24;
         private Button button5;
-        private Button button4;
-        private TextBox textBox15;
-        private TextBox textBox14;
+        private Button btnRecPayment;
+        private TextBox txtBalance;
+        private TextBox txtTotalPaid;
+        private Button btnSaveJob;
     }
 }
