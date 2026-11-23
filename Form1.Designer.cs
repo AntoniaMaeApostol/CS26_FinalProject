@@ -28,553 +28,1252 @@
         /// </summary>
         private void InitializeComponent()
         {
-            tabControl1 = new TabControl();
-            tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
-            tabPage3 = new TabPage();
-            tabPage4 = new TabPage();
-            tabPage5 = new TabPage();
-            tabPage6 = new TabPage();
-            tabPage7 = new TabPage();
-            tabControl2 = new TabControl();
-            tabPage8 = new TabPage();
-            tabPage9 = new TabPage();
-            tabPage10 = new TabPage();
-            tabControl3 = new TabControl();
-            tabPage11 = new TabPage();
-            tabPage12 = new TabPage();
-            tabPage13 = new TabPage();
-            tabPage14 = new TabPage();
-            tabControl4 = new TabControl();
-            tabPage15 = new TabPage();
-            tabPage16 = new TabPage();
-            tabPage17 = new TabPage();
-            tabControl5 = new TabControl();
-            tabPage18 = new TabPage();
-            tabControl6 = new TabControl();
-            tabPage19 = new TabPage();
-            tabPage20 = new TabPage();
-            tabPage21 = new TabPage();
-            tabPage22 = new TabPage();
-            tabPage24 = new TabPage();
-            tabPage25 = new TabPage();
-            tabPage23 = new TabPage();
-            tabControl7 = new TabControl();
-            tabPage26 = new TabPage();
-            tabPage27 = new TabPage();
-            tabPage28 = new TabPage();
-            tabPage29 = new TabPage();
-            tabPage30 = new TabPage();
-            tabPage31 = new TabPage();
-            tabPage32 = new TabPage();
-            tabPage33 = new TabPage();
-            tabControl1.SuspendLayout();
-            tabPage1.SuspendLayout();
-            tabPage2.SuspendLayout();
-            tabPage3.SuspendLayout();
-            tabPage4.SuspendLayout();
-            tabPage5.SuspendLayout();
-            tabPage6.SuspendLayout();
-            tabControl2.SuspendLayout();
-            tabControl3.SuspendLayout();
-            tabControl4.SuspendLayout();
-            tabControl5.SuspendLayout();
-            tabControl6.SuspendLayout();
-            tabControl7.SuspendLayout();
+            tabMain = new TabControl();
+            tabAddJob = new TabPage();
+            tabAddJob_ControlTabs = new TabControl();
+            tabAddJob_Job = new TabPage();
+            radioButton8 = new RadioButton();
+            radioButton7 = new RadioButton();
+            radioButton6 = new RadioButton();
+            radioButton5 = new RadioButton();
+            radioButton4 = new RadioButton();
+            radioButton3 = new RadioButton();
+            radioButton2 = new RadioButton();
+            radioButton1 = new RadioButton();
+            pictureBox1 = new PictureBox();
+            button3 = new Button();
+            dateTimePicker2 = new DateTimePicker();
+            groupBox1 = new GroupBox();
+            comboBox10 = new ComboBox();
+            comboBox9 = new ComboBox();
+            button2 = new Button();
+            label19 = new Label();
+            label18 = new Label();
+            label17 = new Label();
+            dateTimePicker1 = new DateTimePicker();
+            comboBox8 = new ComboBox();
+            label16 = new Label();
+            checkBox3 = new CheckBox();
+            checkBox1 = new CheckBox();
+            comboBox7 = new ComboBox();
+            label15 = new Label();
+            comboBox6 = new ComboBox();
+            label14 = new Label();
+            comboBox5 = new ComboBox();
+            label13 = new Label();
+            label11 = new Label();
+            textBox4 = new TextBox();
+            comboBox3 = new ComboBox();
+            comboBox2 = new ComboBox();
+            comboBox1 = new ComboBox();
+            cboTimezone = new ComboBox();
+            button1 = new Button();
+            label10 = new Label();
+            label9 = new Label();
+            label8 = new Label();
+            label7 = new Label();
+            label6 = new Label();
+            textBox11 = new TextBox();
+            textBox10 = new TextBox();
+            textBox9 = new TextBox();
+            textBox7 = new TextBox();
+            label5 = new Label();
+            label1 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            lblPhone2 = new Label();
+            textBox3 = new TextBox();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            txtPhone = new TextBox();
+            lblAddJob_Job_Phone = new Label();
+            txtName = new TextBox();
+            lblAddJob_Job_Name = new Label();
+            txtCompany = new TextBox();
+            lblAddJob_Job_Company = new Label();
+            tabAddJob_Log = new TabPage();
+            tabJobs = new TabPage();
+            tabJobs_ControlTabs = new TabControl();
+            tabJobs_JobList = new TabPage();
+            tabJobs_Calendar = new TabPage();
+            tabMessages = new TabPage();
+            tabMessages_ControlTabs = new TabControl();
+            tabMessages_Messages = new TabPage();
+            tabSearch = new TabPage();
+            tabSearch_ControlTabs = new TabControl();
+            tabSearch_Search = new TabPage();
+            tabReports = new TabPage();
+            tabReports_ControlTabs = new TabControl();
+            tabReoprts_Payments = new TabPage();
+            tabReports_Technicians = new TabPage();
+            tabSettings = new TabPage();
+            tabSettings_ControlTabs = new TabControl();
+            tabSettings_Companies = new TabPage();
+            tabSettings_Technicians = new TabPage();
+            tabSettings_Jobs = new TabPage();
+            tabSettings_User = new TabPage();
+            tabSettings_System = new TabPage();
+            tabSettings_Reports = new TabPage();
+            tabSettings_Integrations = new TabPage();
+            pnlUser = new Panel();
+            btnLogout = new Button();
+            lblUserName = new Label();
+            tabMain.SuspendLayout();
+            tabAddJob.SuspendLayout();
+            tabAddJob_ControlTabs.SuspendLayout();
+            tabAddJob_Job.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            groupBox1.SuspendLayout();
+            tabJobs.SuspendLayout();
+            tabJobs_ControlTabs.SuspendLayout();
+            tabMessages.SuspendLayout();
+            tabMessages_ControlTabs.SuspendLayout();
+            tabSearch.SuspendLayout();
+            tabSearch_ControlTabs.SuspendLayout();
+            tabReports.SuspendLayout();
+            tabReports_ControlTabs.SuspendLayout();
+            tabSettings.SuspendLayout();
+            tabSettings_ControlTabs.SuspendLayout();
+            pnlUser.SuspendLayout();
             SuspendLayout();
             // 
-            // tabControl1
-            // 
-            tabControl1.Controls.Add(tabPage1);
-            tabControl1.Controls.Add(tabPage2);
-            tabControl1.Controls.Add(tabPage3);
-            tabControl1.Controls.Add(tabPage4);
-            tabControl1.Controls.Add(tabPage5);
-            tabControl1.Controls.Add(tabPage6);
-            tabControl1.Controls.Add(tabPage7);
-            tabControl1.Location = new Point(12, 29);
-            tabControl1.Name = "tabControl1";
-            tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(1035, 525);
-            tabControl1.TabIndex = 0;
-            // 
-            // tabPage1
-            // 
-            tabPage1.Controls.Add(tabControl2);
-            tabPage1.Location = new Point(4, 24);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1027, 497);
-            tabPage1.TabIndex = 0;
-            tabPage1.Text = "Add Job";
-            tabPage1.UseVisualStyleBackColor = true;
-            tabPage1.Click += tabPage1_Click;
-            // 
-            // tabPage2
-            // 
-            tabPage2.Controls.Add(tabControl3);
-            tabPage2.Location = new Point(4, 24);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1027, 497);
-            tabPage2.TabIndex = 1;
-            tabPage2.Text = "Jobs";
-            tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            tabPage3.Controls.Add(tabControl4);
-            tabPage3.Location = new Point(4, 24);
-            tabPage3.Name = "tabPage3";
-            tabPage3.Padding = new Padding(3);
-            tabPage3.Size = new Size(1027, 497);
-            tabPage3.TabIndex = 2;
-            tabPage3.Text = "Messages";
-            tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            tabPage4.Controls.Add(tabControl5);
-            tabPage4.Location = new Point(4, 24);
-            tabPage4.Name = "tabPage4";
-            tabPage4.Padding = new Padding(3);
-            tabPage4.Size = new Size(1027, 497);
-            tabPage4.TabIndex = 3;
-            tabPage4.Text = "Search";
-            tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            tabPage5.Controls.Add(tabControl6);
-            tabPage5.Location = new Point(4, 24);
-            tabPage5.Name = "tabPage5";
-            tabPage5.Padding = new Padding(3);
-            tabPage5.Size = new Size(1027, 497);
-            tabPage5.TabIndex = 4;
-            tabPage5.Text = "Reports";
-            tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            tabPage6.Controls.Add(tabControl7);
-            tabPage6.Location = new Point(4, 24);
-            tabPage6.Name = "tabPage6";
-            tabPage6.Padding = new Padding(3);
-            tabPage6.Size = new Size(1027, 497);
-            tabPage6.TabIndex = 5;
-            tabPage6.Text = "Settings";
-            tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage7
-            // 
-            tabPage7.Location = new Point(4, 24);
-            tabPage7.Name = "tabPage7";
-            tabPage7.Padding = new Padding(3);
-            tabPage7.Size = new Size(1027, 497);
-            tabPage7.TabIndex = 6;
-            tabPage7.Text = "Share";
-            tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // tabControl2
-            // 
-            tabControl2.Controls.Add(tabPage8);
-            tabControl2.Controls.Add(tabPage9);
-            tabControl2.Controls.Add(tabPage10);
-            tabControl2.Location = new Point(6, 6);
-            tabControl2.Name = "tabControl2";
-            tabControl2.SelectedIndex = 0;
-            tabControl2.Size = new Size(195, 100);
-            tabControl2.TabIndex = 0;
-            // 
-            // tabPage8
-            // 
-            tabPage8.Location = new Point(4, 24);
-            tabPage8.Name = "tabPage8";
-            tabPage8.Padding = new Padding(3);
-            tabPage8.Size = new Size(187, 72);
-            tabPage8.TabIndex = 0;
-            tabPage8.Text = "Job";
-            tabPage8.UseVisualStyleBackColor = true;
-            // 
-            // tabPage9
-            // 
-            tabPage9.Location = new Point(4, 24);
-            tabPage9.Name = "tabPage9";
-            tabPage9.Padding = new Padding(3);
-            tabPage9.Size = new Size(187, 72);
-            tabPage9.TabIndex = 1;
-            tabPage9.Text = "Log";
-            tabPage9.UseVisualStyleBackColor = true;
-            // 
-            // tabPage10
-            // 
-            tabPage10.Location = new Point(4, 24);
-            tabPage10.Name = "tabPage10";
-            tabPage10.Padding = new Padding(3);
-            tabPage10.Size = new Size(187, 72);
-            tabPage10.TabIndex = 2;
-            tabPage10.Text = "Docs";
-            tabPage10.UseVisualStyleBackColor = true;
-            // 
-            // tabControl3
-            // 
-            tabControl3.Controls.Add(tabPage11);
-            tabControl3.Controls.Add(tabPage12);
-            tabControl3.Controls.Add(tabPage13);
-            tabControl3.Controls.Add(tabPage14);
-            tabControl3.Location = new Point(6, 6);
-            tabControl3.Name = "tabControl3";
-            tabControl3.SelectedIndex = 0;
-            tabControl3.Size = new Size(327, 100);
-            tabControl3.TabIndex = 0;
-            // 
-            // tabPage11
-            // 
-            tabPage11.Location = new Point(4, 24);
-            tabPage11.Name = "tabPage11";
-            tabPage11.Padding = new Padding(3);
-            tabPage11.Size = new Size(319, 72);
-            tabPage11.TabIndex = 0;
-            tabPage11.Text = "Jobs List";
-            tabPage11.UseVisualStyleBackColor = true;
-            // 
-            // tabPage12
-            // 
-            tabPage12.Location = new Point(4, 24);
-            tabPage12.Name = "tabPage12";
-            tabPage12.Padding = new Padding(3);
-            tabPage12.Size = new Size(319, 72);
-            tabPage12.TabIndex = 1;
-            tabPage12.Text = "Calendar";
-            tabPage12.UseVisualStyleBackColor = true;
-            // 
-            // tabPage13
-            // 
-            tabPage13.Location = new Point(4, 24);
-            tabPage13.Name = "tabPage13";
-            tabPage13.Padding = new Padding(3);
-            tabPage13.Size = new Size(319, 72);
-            tabPage13.TabIndex = 2;
-            tabPage13.Text = "Map";
-            tabPage13.UseVisualStyleBackColor = true;
-            // 
-            // tabPage14
-            // 
-            tabPage14.Location = new Point(4, 24);
-            tabPage14.Name = "tabPage14";
-            tabPage14.Padding = new Padding(3);
-            tabPage14.Size = new Size(319, 72);
-            tabPage14.TabIndex = 3;
-            tabPage14.Text = "Docs";
-            tabPage14.UseVisualStyleBackColor = true;
-            // 
-            // tabControl4
-            // 
-            tabControl4.Controls.Add(tabPage15);
-            tabControl4.Controls.Add(tabPage16);
-            tabControl4.Controls.Add(tabPage17);
-            tabControl4.Location = new Point(3, 6);
-            tabControl4.Name = "tabControl4";
-            tabControl4.SelectedIndex = 0;
-            tabControl4.Size = new Size(254, 100);
-            tabControl4.TabIndex = 0;
-            // 
-            // tabPage15
-            // 
-            tabPage15.Location = new Point(4, 24);
-            tabPage15.Name = "tabPage15";
-            tabPage15.Padding = new Padding(3);
-            tabPage15.Size = new Size(246, 72);
-            tabPage15.TabIndex = 0;
-            tabPage15.Text = "Messages";
-            tabPage15.UseVisualStyleBackColor = true;
-            // 
-            // tabPage16
-            // 
-            tabPage16.Location = new Point(4, 24);
-            tabPage16.Name = "tabPage16";
-            tabPage16.Padding = new Padding(3);
-            tabPage16.Size = new Size(246, 72);
-            tabPage16.TabIndex = 1;
-            tabPage16.Text = "Activities";
-            tabPage16.UseVisualStyleBackColor = true;
-            // 
-            // tabPage17
-            // 
-            tabPage17.Location = new Point(4, 24);
-            tabPage17.Name = "tabPage17";
-            tabPage17.Padding = new Padding(3);
-            tabPage17.Size = new Size(246, 72);
-            tabPage17.TabIndex = 2;
-            tabPage17.Text = "Recordings";
-            tabPage17.UseVisualStyleBackColor = true;
-            // 
-            // tabControl5
-            // 
-            tabControl5.Controls.Add(tabPage18);
-            tabControl5.Location = new Point(6, 6);
-            tabControl5.Name = "tabControl5";
-            tabControl5.SelectedIndex = 0;
-            tabControl5.Size = new Size(200, 100);
-            tabControl5.TabIndex = 0;
-            // 
-            // tabPage18
-            // 
-            tabPage18.Location = new Point(4, 24);
-            tabPage18.Name = "tabPage18";
-            tabPage18.Padding = new Padding(3);
-            tabPage18.Size = new Size(192, 72);
-            tabPage18.TabIndex = 0;
-            tabPage18.Text = "Search";
-            tabPage18.UseVisualStyleBackColor = true;
-            // 
-            // tabControl6
-            // 
-            tabControl6.Controls.Add(tabPage19);
-            tabControl6.Controls.Add(tabPage20);
-            tabControl6.Controls.Add(tabPage21);
-            tabControl6.Controls.Add(tabPage22);
-            tabControl6.Controls.Add(tabPage23);
-            tabControl6.Controls.Add(tabPage24);
-            tabControl6.Controls.Add(tabPage25);
-            tabControl6.Location = new Point(6, 6);
-            tabControl6.Name = "tabControl6";
-            tabControl6.SelectedIndex = 0;
-            tabControl6.Size = new Size(735, 100);
-            tabControl6.TabIndex = 0;
-            // 
-            // tabPage19
-            // 
-            tabPage19.Location = new Point(4, 24);
-            tabPage19.Name = "tabPage19";
-            tabPage19.Padding = new Padding(3);
-            tabPage19.Size = new Size(727, 72);
-            tabPage19.TabIndex = 0;
-            tabPage19.Text = "Payments";
-            tabPage19.UseVisualStyleBackColor = true;
-            // 
-            // tabPage20
-            // 
-            tabPage20.Location = new Point(4, 24);
-            tabPage20.Name = "tabPage20";
-            tabPage20.Padding = new Padding(3);
-            tabPage20.Size = new Size(727, 72);
-            tabPage20.TabIndex = 1;
-            tabPage20.Text = "Overview";
-            tabPage20.UseVisualStyleBackColor = true;
-            // 
-            // tabPage21
-            // 
-            tabPage21.Location = new Point(4, 24);
-            tabPage21.Name = "tabPage21";
-            tabPage21.Padding = new Padding(3);
-            tabPage21.Size = new Size(727, 72);
-            tabPage21.TabIndex = 2;
-            tabPage21.Text = "Technicians";
-            tabPage21.UseVisualStyleBackColor = true;
-            // 
-            // tabPage22
-            // 
-            tabPage22.Location = new Point(4, 24);
-            tabPage22.Name = "tabPage22";
-            tabPage22.Padding = new Padding(3);
-            tabPage22.Size = new Size(727, 72);
-            tabPage22.TabIndex = 3;
-            tabPage22.Text = "Companies";
-            tabPage22.UseVisualStyleBackColor = true;
-            // 
-            // tabPage24
-            // 
-            tabPage24.Location = new Point(4, 24);
-            tabPage24.Name = "tabPage24";
-            tabPage24.Padding = new Padding(3);
-            tabPage24.Size = new Size(727, 72);
-            tabPage24.TabIndex = 5;
-            tabPage24.Text = "Users";
-            tabPage24.UseVisualStyleBackColor = true;
-            // 
-            // tabPage25
-            // 
-            tabPage25.Location = new Point(4, 24);
-            tabPage25.Name = "tabPage25";
-            tabPage25.Padding = new Padding(3);
-            tabPage25.Size = new Size(727, 72);
-            tabPage25.TabIndex = 6;
-            tabPage25.Text = "Types";
-            tabPage25.UseVisualStyleBackColor = true;
-            // 
-            // tabPage23
-            // 
-            tabPage23.Location = new Point(4, 24);
-            tabPage23.Name = "tabPage23";
-            tabPage23.Padding = new Padding(3);
-            tabPage23.Size = new Size(727, 72);
-            tabPage23.TabIndex = 4;
-            tabPage23.Text = "Advertising";
-            tabPage23.UseVisualStyleBackColor = true;
-            // 
-            // tabControl7
-            // 
-            tabControl7.Controls.Add(tabPage26);
-            tabControl7.Controls.Add(tabPage27);
-            tabControl7.Controls.Add(tabPage28);
-            tabControl7.Controls.Add(tabPage29);
-            tabControl7.Controls.Add(tabPage30);
-            tabControl7.Controls.Add(tabPage31);
-            tabControl7.Controls.Add(tabPage32);
-            tabControl7.Controls.Add(tabPage33);
-            tabControl7.Location = new Point(6, 6);
-            tabControl7.Name = "tabControl7";
-            tabControl7.SelectedIndex = 0;
-            tabControl7.Size = new Size(700, 100);
-            tabControl7.TabIndex = 0;
-            // 
-            // tabPage26
-            // 
-            tabPage26.Location = new Point(4, 24);
-            tabPage26.Name = "tabPage26";
-            tabPage26.Padding = new Padding(3);
-            tabPage26.Size = new Size(692, 72);
-            tabPage26.TabIndex = 0;
-            tabPage26.Text = "Companies";
-            tabPage26.UseVisualStyleBackColor = true;
-            // 
-            // tabPage27
-            // 
-            tabPage27.Location = new Point(4, 24);
-            tabPage27.Name = "tabPage27";
-            tabPage27.Padding = new Padding(3);
-            tabPage27.Size = new Size(692, 72);
-            tabPage27.TabIndex = 1;
-            tabPage27.Text = "Technicians";
-            tabPage27.UseVisualStyleBackColor = true;
-            // 
-            // tabPage28
-            // 
-            tabPage28.Location = new Point(4, 24);
-            tabPage28.Name = "tabPage28";
-            tabPage28.Padding = new Padding(3);
-            tabPage28.Size = new Size(692, 72);
-            tabPage28.TabIndex = 2;
-            tabPage28.Text = "Jobs";
-            tabPage28.UseVisualStyleBackColor = true;
-            // 
-            // tabPage29
-            // 
-            tabPage29.Location = new Point(4, 24);
-            tabPage29.Name = "tabPage29";
-            tabPage29.Padding = new Padding(3);
-            tabPage29.Size = new Size(692, 72);
-            tabPage29.TabIndex = 3;
-            tabPage29.Text = "Users";
-            tabPage29.UseVisualStyleBackColor = true;
-            // 
-            // tabPage30
-            // 
-            tabPage30.Location = new Point(4, 24);
-            tabPage30.Name = "tabPage30";
-            tabPage30.Padding = new Padding(3);
-            tabPage30.Size = new Size(692, 72);
-            tabPage30.TabIndex = 4;
-            tabPage30.Text = "System";
-            tabPage30.UseVisualStyleBackColor = true;
-            // 
-            // tabPage31
-            // 
-            tabPage31.Location = new Point(4, 24);
-            tabPage31.Name = "tabPage31";
-            tabPage31.Padding = new Padding(3);
-            tabPage31.Size = new Size(692, 72);
-            tabPage31.TabIndex = 5;
-            tabPage31.Text = "Reports";
-            tabPage31.UseVisualStyleBackColor = true;
-            // 
-            // tabPage32
-            // 
-            tabPage32.Location = new Point(4, 24);
-            tabPage32.Name = "tabPage32";
-            tabPage32.Padding = new Padding(3);
-            tabPage32.Size = new Size(692, 72);
-            tabPage32.TabIndex = 6;
-            tabPage32.Text = "Integrations";
-            tabPage32.UseVisualStyleBackColor = true;
-            // 
-            // tabPage33
-            // 
-            tabPage33.Location = new Point(4, 24);
-            tabPage33.Name = "tabPage33";
-            tabPage33.Padding = new Padding(3);
-            tabPage33.Size = new Size(692, 72);
-            tabPage33.TabIndex = 7;
-            tabPage33.Text = "Docs";
-            tabPage33.UseVisualStyleBackColor = true;
+            // tabMain
+            // 
+            tabMain.Controls.Add(tabAddJob);
+            tabMain.Controls.Add(tabJobs);
+            tabMain.Controls.Add(tabMessages);
+            tabMain.Controls.Add(tabSearch);
+            tabMain.Controls.Add(tabReports);
+            tabMain.Controls.Add(tabSettings);
+            tabMain.Dock = DockStyle.Fill;
+            tabMain.Location = new Point(0, 0);
+            tabMain.Name = "tabMain";
+            tabMain.SelectedIndex = 0;
+            tabMain.Size = new Size(1095, 727);
+            tabMain.TabIndex = 0;
+            // 
+            // tabAddJob
+            // 
+            tabAddJob.BackColor = Color.Transparent;
+            tabAddJob.Controls.Add(tabAddJob_ControlTabs);
+            tabAddJob.ForeColor = SystemColors.ActiveCaptionText;
+            tabAddJob.Location = new Point(4, 24);
+            tabAddJob.Name = "tabAddJob";
+            tabAddJob.Padding = new Padding(3);
+            tabAddJob.Size = new Size(1087, 699);
+            tabAddJob.TabIndex = 0;
+            tabAddJob.Text = "Add Job";
+            tabAddJob.Click += tabPage1_Click;
+            // 
+            // tabAddJob_ControlTabs
+            // 
+            tabAddJob_ControlTabs.Controls.Add(tabAddJob_Job);
+            tabAddJob_ControlTabs.Controls.Add(tabAddJob_Log);
+            tabAddJob_ControlTabs.Dock = DockStyle.Fill;
+            tabAddJob_ControlTabs.Location = new Point(3, 3);
+            tabAddJob_ControlTabs.Name = "tabAddJob_ControlTabs";
+            tabAddJob_ControlTabs.SelectedIndex = 0;
+            tabAddJob_ControlTabs.Size = new Size(1081, 693);
+            tabAddJob_ControlTabs.TabIndex = 0;
+            // 
+            // tabAddJob_Job
+            // 
+            tabAddJob_Job.BackColor = Color.FromArgb(212, 208, 200);
+            tabAddJob_Job.Controls.Add(radioButton8);
+            tabAddJob_Job.Controls.Add(radioButton7);
+            tabAddJob_Job.Controls.Add(radioButton6);
+            tabAddJob_Job.Controls.Add(radioButton5);
+            tabAddJob_Job.Controls.Add(radioButton4);
+            tabAddJob_Job.Controls.Add(radioButton3);
+            tabAddJob_Job.Controls.Add(radioButton2);
+            tabAddJob_Job.Controls.Add(radioButton1);
+            tabAddJob_Job.Controls.Add(pictureBox1);
+            tabAddJob_Job.Controls.Add(button3);
+            tabAddJob_Job.Controls.Add(dateTimePicker2);
+            tabAddJob_Job.Controls.Add(groupBox1);
+            tabAddJob_Job.Controls.Add(comboBox8);
+            tabAddJob_Job.Controls.Add(label16);
+            tabAddJob_Job.Controls.Add(checkBox3);
+            tabAddJob_Job.Controls.Add(checkBox1);
+            tabAddJob_Job.Controls.Add(comboBox7);
+            tabAddJob_Job.Controls.Add(label15);
+            tabAddJob_Job.Controls.Add(comboBox6);
+            tabAddJob_Job.Controls.Add(label14);
+            tabAddJob_Job.Controls.Add(comboBox5);
+            tabAddJob_Job.Controls.Add(label13);
+            tabAddJob_Job.Controls.Add(label11);
+            tabAddJob_Job.Controls.Add(textBox4);
+            tabAddJob_Job.Controls.Add(comboBox3);
+            tabAddJob_Job.Controls.Add(comboBox2);
+            tabAddJob_Job.Controls.Add(comboBox1);
+            tabAddJob_Job.Controls.Add(cboTimezone);
+            tabAddJob_Job.Controls.Add(button1);
+            tabAddJob_Job.Controls.Add(label10);
+            tabAddJob_Job.Controls.Add(label9);
+            tabAddJob_Job.Controls.Add(label8);
+            tabAddJob_Job.Controls.Add(label7);
+            tabAddJob_Job.Controls.Add(label6);
+            tabAddJob_Job.Controls.Add(textBox11);
+            tabAddJob_Job.Controls.Add(textBox10);
+            tabAddJob_Job.Controls.Add(textBox9);
+            tabAddJob_Job.Controls.Add(textBox7);
+            tabAddJob_Job.Controls.Add(label5);
+            tabAddJob_Job.Controls.Add(label1);
+            tabAddJob_Job.Controls.Add(label4);
+            tabAddJob_Job.Controls.Add(label3);
+            tabAddJob_Job.Controls.Add(label2);
+            tabAddJob_Job.Controls.Add(lblPhone2);
+            tabAddJob_Job.Controls.Add(textBox3);
+            tabAddJob_Job.Controls.Add(textBox2);
+            tabAddJob_Job.Controls.Add(textBox1);
+            tabAddJob_Job.Controls.Add(txtPhone);
+            tabAddJob_Job.Controls.Add(lblAddJob_Job_Phone);
+            tabAddJob_Job.Controls.Add(txtName);
+            tabAddJob_Job.Controls.Add(lblAddJob_Job_Name);
+            tabAddJob_Job.Controls.Add(txtCompany);
+            tabAddJob_Job.Controls.Add(lblAddJob_Job_Company);
+            tabAddJob_Job.ForeColor = SystemColors.InfoText;
+            tabAddJob_Job.Location = new Point(4, 24);
+            tabAddJob_Job.Name = "tabAddJob_Job";
+            tabAddJob_Job.Padding = new Padding(3);
+            tabAddJob_Job.Size = new Size(1073, 665);
+            tabAddJob_Job.TabIndex = 0;
+            tabAddJob_Job.Text = "Job";
+            tabAddJob_Job.Click += tabAddJob_Job_Click;
+            // 
+            // radioButton8
+            // 
+            radioButton8.Appearance = Appearance.Button;
+            radioButton8.BackColor = Color.FromArgb(192, 255, 255);
+            radioButton8.FlatAppearance.BorderColor = Color.FromArgb(192, 255, 255);
+            radioButton8.FlatStyle = FlatStyle.Flat;
+            radioButton8.Location = new Point(986, 472);
+            radioButton8.Name = "radioButton8";
+            radioButton8.Size = new Size(24, 24);
+            radioButton8.TabIndex = 64;
+            radioButton8.TabStop = true;
+            radioButton8.UseVisualStyleBackColor = false;
+            // 
+            // radioButton7
+            // 
+            radioButton7.Appearance = Appearance.Button;
+            radioButton7.BackColor = Color.FromArgb(255, 224, 192);
+            radioButton7.FlatAppearance.BorderColor = Color.FromArgb(255, 224, 192);
+            radioButton7.FlatStyle = FlatStyle.Flat;
+            radioButton7.Location = new Point(945, 472);
+            radioButton7.Name = "radioButton7";
+            radioButton7.Size = new Size(24, 24);
+            radioButton7.TabIndex = 63;
+            radioButton7.TabStop = true;
+            radioButton7.UseVisualStyleBackColor = false;
+            // 
+            // radioButton6
+            // 
+            radioButton6.Appearance = Appearance.Button;
+            radioButton6.BackColor = Color.FromArgb(255, 192, 255);
+            radioButton6.FlatAppearance.BorderColor = Color.FromArgb(255, 192, 255);
+            radioButton6.FlatStyle = FlatStyle.Flat;
+            radioButton6.Location = new Point(903, 472);
+            radioButton6.Name = "radioButton6";
+            radioButton6.Size = new Size(24, 24);
+            radioButton6.TabIndex = 62;
+            radioButton6.TabStop = true;
+            radioButton6.UseVisualStyleBackColor = false;
+            // 
+            // radioButton5
+            // 
+            radioButton5.Appearance = Appearance.Button;
+            radioButton5.BackColor = Color.FromArgb(255, 255, 192);
+            radioButton5.FlatAppearance.BorderColor = Color.FromArgb(255, 255, 192);
+            radioButton5.FlatStyle = FlatStyle.Flat;
+            radioButton5.Location = new Point(858, 471);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(24, 24);
+            radioButton5.TabIndex = 61;
+            radioButton5.TabStop = true;
+            radioButton5.UseVisualStyleBackColor = false;
+            // 
+            // radioButton4
+            // 
+            radioButton4.Appearance = Appearance.Button;
+            radioButton4.BackColor = Color.FromArgb(192, 192, 255);
+            radioButton4.FlatAppearance.BorderColor = Color.FromArgb(192, 192, 255);
+            radioButton4.FlatStyle = FlatStyle.Flat;
+            radioButton4.Location = new Point(815, 471);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(24, 24);
+            radioButton4.TabIndex = 60;
+            radioButton4.TabStop = true;
+            radioButton4.UseVisualStyleBackColor = false;
+            // 
+            // radioButton3
+            // 
+            radioButton3.Appearance = Appearance.Button;
+            radioButton3.BackColor = Color.FromArgb(192, 255, 192);
+            radioButton3.FlatAppearance.BorderColor = Color.FromArgb(192, 255, 192);
+            radioButton3.FlatStyle = FlatStyle.Flat;
+            radioButton3.Location = new Point(772, 471);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(24, 24);
+            radioButton3.TabIndex = 59;
+            radioButton3.TabStop = true;
+            radioButton3.UseVisualStyleBackColor = false;
+            // 
+            // radioButton2
+            // 
+            radioButton2.Appearance = Appearance.Button;
+            radioButton2.BackColor = Color.FromArgb(255, 192, 192);
+            radioButton2.FlatAppearance.BorderColor = Color.FromArgb(255, 192, 192);
+            radioButton2.FlatAppearance.CheckedBackColor = Color.Black;
+            radioButton2.FlatAppearance.MouseDownBackColor = Color.Black;
+            radioButton2.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 192, 192);
+            radioButton2.FlatStyle = FlatStyle.Flat;
+            radioButton2.ForeColor = Color.FromArgb(255, 192, 192);
+            radioButton2.Location = new Point(729, 471);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(24, 24);
+            radioButton2.TabIndex = 58;
+            radioButton2.TabStop = true;
+            radioButton2.UseVisualStyleBackColor = false;
+            // 
+            // radioButton1
+            // 
+            radioButton1.Appearance = Appearance.Button;
+            radioButton1.BackColor = Color.White;
+            radioButton1.FlatAppearance.BorderColor = Color.White;
+            radioButton1.FlatStyle = FlatStyle.Flat;
+            radioButton1.Location = new Point(688, 471);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(24, 24);
+            radioButton1.TabIndex = 57;
+            radioButton1.TabStop = true;
+            radioButton1.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources._29853149_665d_4065_8474_c7665c93e8be;
+            pictureBox1.Location = new Point(660, 23);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(377, 397);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 54;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
+            // button3
+            // 
+            button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.ForeColor = Color.FromArgb(0, 192, 0);
+            button3.Location = new Point(960, 621);
+            button3.Name = "button3";
+            button3.Size = new Size(107, 36);
+            button3.TabIndex = 53;
+            button3.Text = "Save Job";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // dateTimePicker2
+            // 
+            dateTimePicker2.Format = DateTimePickerFormat.Short;
+            dateTimePicker2.Location = new Point(92, 375);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(122, 23);
+            dateTimePicker2.TabIndex = 1;
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(comboBox10);
+            groupBox1.Controls.Add(comboBox9);
+            groupBox1.Controls.Add(button2);
+            groupBox1.Controls.Add(label19);
+            groupBox1.Controls.Add(label18);
+            groupBox1.Controls.Add(label17);
+            groupBox1.Controls.Add(dateTimePicker1);
+            groupBox1.ForeColor = SystemColors.MenuHighlight;
+            groupBox1.Location = new Point(17, 556);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(1037, 59);
+            groupBox1.TabIndex = 52;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Appointment";
+            // 
+            // comboBox10
+            // 
+            comboBox10.FormattingEnabled = true;
+            comboBox10.Items.AddRange(new object[] { "7:00am", "7:30am", "8:00am", "8:30am", "9:00am", "9:30am", "10:00am", "10:30am", "11:00am", "11:30am", "12:00pm", "12:30pm", "1:00pm", "1:30pm", "2:00pm", "2:30pm", "3:00pm", "3:30pm", "4:00pm", "4:30pm", "5:00pm", "5:30pm", "6:00pm", "6:30pm", "7:00pm" });
+            comboBox10.Location = new Point(585, 22);
+            comboBox10.Name = "comboBox10";
+            comboBox10.Size = new Size(151, 23);
+            comboBox10.TabIndex = 66;
+            // 
+            // comboBox9
+            // 
+            comboBox9.FormattingEnabled = true;
+            comboBox9.Items.AddRange(new object[] { "7:00am", "7:30am", "8:00am", "8:30am", "9:00am", "9:30am", "10:00am", "10:30am", "11:00am", "11:30am", "12:00pm", "12:30pm", "1:00pm", "1:30pm", "2:00pm", "2:30pm", "3:00pm", "3:30pm", "4:00pm", "4:30pm", "5:00pm", "5:30pm", "6:00pm", "6:30pm", "7:00pm" });
+            comboBox9.Location = new Point(393, 23);
+            comboBox9.Name = "comboBox9";
+            comboBox9.Size = new Size(151, 23);
+            comboBox9.TabIndex = 65;
+            // 
+            // button2
+            // 
+            button2.ForeColor = SystemColors.InfoText;
+            button2.Location = new Point(907, 22);
+            button2.Name = "button2";
+            button2.Size = new Size(124, 23);
+            button2.TabIndex = 58;
+            button2.Text = "Clear Appointment\r\n";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label19.ForeColor = SystemColors.InfoText;
+            label19.Location = new Point(552, 28);
+            label19.Name = "label19";
+            label19.Size = new Size(27, 15);
+            label19.TabIndex = 56;
+            label19.Text = "and";
+            label19.Click += label19_Click;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label18.ForeColor = SystemColors.InfoText;
+            label18.Location = new Point(325, 28);
+            label18.Name = "label18";
+            label18.Size = new Size(61, 15);
+            label18.TabIndex = 54;
+            label18.Text = "Between:";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label17.ForeColor = SystemColors.InfoText;
+            label17.Location = new Point(21, 28);
+            label17.Name = "label17";
+            label17.Size = new Size(37, 15);
+            label17.TabIndex = 53;
+            label17.Text = "Date:";
+            label17.Click += label17_Click;
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(64, 22);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(193, 23);
+            dateTimePicker1.TabIndex = 0;
+            // 
+            // comboBox8
+            // 
+            comboBox8.ForeColor = Color.FromArgb(150, 150, 150);
+            comboBox8.FormattingEnabled = true;
+            comboBox8.Items.AddRange(new object[] { "Installation and Replacement", "Repairs", "Routine Maintenance", "Emergency and Commercial Services" });
+            comboBox8.Location = new Point(419, 503);
+            comboBox8.Name = "comboBox8";
+            comboBox8.Size = new Size(207, 23);
+            comboBox8.TabIndex = 51;
+            comboBox8.Text = "Select Description";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label16.ForeColor = Color.Red;
+            label16.Location = new Point(315, 506);
+            label16.Name = "label16";
+            label16.Size = new Size(96, 15);
+            label16.TabIndex = 50;
+            label16.Text = "Job Description:";
+            // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(429, 456);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(60, 19);
+            checkBox3.TabIndex = 48;
+            checkBox3.Text = "E-mail";
+            checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(429, 431);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(49, 19);
+            checkBox1.TabIndex = 46;
+            checkBox1.Text = "SMS";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // comboBox7
+            // 
+            comboBox7.ForeColor = Color.FromArgb(150, 150, 150);
+            comboBox7.FormattingEnabled = true;
+            comboBox7.Location = new Point(419, 397);
+            comboBox7.Name = "comboBox7";
+            comboBox7.Size = new Size(207, 23);
+            comboBox7.TabIndex = 45;
+            comboBox7.Text = "Select a Technician";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label15.ForeColor = Color.Red;
+            label15.Location = new Point(315, 400);
+            label15.Name = "label15";
+            label15.Size = new Size(68, 15);
+            label15.TabIndex = 44;
+            label15.Text = "Technician:";
+            // 
+            // comboBox6
+            // 
+            comboBox6.ForeColor = Color.FromArgb(150, 150, 150);
+            comboBox6.FormattingEnabled = true;
+            comboBox6.Items.AddRange(new object[] { "Google Ads", "Website Ticket", "Referral", "Other" });
+            comboBox6.Location = new Point(92, 502);
+            comboBox6.Name = "comboBox6";
+            comboBox6.Size = new Size(196, 23);
+            comboBox6.TabIndex = 43;
+            comboBox6.Text = "Select an Ad Source";
+            comboBox6.SelectedIndexChanged += comboBox6_SelectedIndexChanged;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label14.Location = new Point(16, 505);
+            label14.Name = "label14";
+            label14.Size = new Size(67, 15);
+            label14.TabIndex = 42;
+            label14.Text = "Ad Source:";
+            // 
+            // comboBox5
+            // 
+            comboBox5.FormattingEnabled = true;
+            comboBox5.Items.AddRange(new object[] { "Accepted", "In Progress", "Cancelled", "Pending close", "Closed" });
+            comboBox5.Location = new Point(92, 437);
+            comboBox5.Name = "comboBox5";
+            comboBox5.Size = new Size(151, 23);
+            comboBox5.TabIndex = 41;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label13.ForeColor = Color.Red;
+            label13.Location = new Point(17, 441);
+            label13.Name = "label13";
+            label13.Size = new Size(45, 15);
+            label13.TabIndex = 40;
+            label13.Text = "Status:";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.ForeColor = Color.Red;
+            label11.Location = new Point(16, 381);
+            label11.Name = "label11";
+            label11.Size = new Size(59, 15);
+            label11.TabIndex = 36;
+            label11.Text = "Job Date:";
+            // 
+            // textBox4
+            // 
+            textBox4.ForeColor = Color.FromArgb(150, 150, 150);
+            textBox4.Location = new Point(12, 250);
+            textBox4.Multiline = true;
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(614, 105);
+            textBox4.TabIndex = 35;
+            textBox4.Text = "Enter job notes here.";
+            // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(447, 111);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(177, 23);
+            comboBox3.TabIndex = 34;
+            // 
+            // comboBox2
+            // 
+            comboBox2.ForeColor = Color.FromArgb(150, 150, 150);
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(448, 53);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(177, 23);
+            comboBox2.TabIndex = 33;
+            comboBox2.Text = "Select State";
+            // 
+            // comboBox1
+            // 
+            comboBox1.ForeColor = Color.FromArgb(150, 150, 150);
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(449, 23);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(177, 23);
+            comboBox1.TabIndex = 32;
+            comboBox1.Text = "Select Country";
+            // 
+            // cboTimezone
+            // 
+            cboTimezone.FormattingEnabled = true;
+            cboTimezone.Location = new Point(83, 201);
+            cboTimezone.Name = "cboTimezone";
+            cboTimezone.Size = new Size(177, 23);
+            cboTimezone.TabIndex = 31;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(569, 140);
+            button1.Name = "button1";
+            button1.Size = new Size(57, 23);
+            button1.TabIndex = 30;
+            button1.Text = "Map it";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label10.Location = new Point(404, 201);
+            label10.Name = "label10";
+            label10.Size = new Size(37, 15);
+            label10.TabIndex = 29;
+            label10.Text = "Item:";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label9.Location = new Point(358, 172);
+            label9.Name = "label9";
+            label9.Size = new Size(83, 15);
+            label9.TabIndex = 28;
+            label9.Text = "Cross Streets:";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.ForeColor = Color.Red;
+            label8.Location = new Point(414, 143);
+            label8.Name = "label8";
+            label8.Size = new Size(27, 15);
+            label8.TabIndex = 27;
+            label8.Text = "Zip:";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.Red;
+            label7.Location = new Point(410, 114);
+            label7.Name = "label7";
+            label7.Size = new Size(31, 15);
+            label7.TabIndex = 26;
+            label7.Text = "City:";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.Red;
+            label6.Location = new Point(388, 85);
+            label6.Name = "label6";
+            label6.Size = new Size(54, 15);
+            label6.TabIndex = 25;
+            label6.Text = "Address:";
+            // 
+            // textBox11
+            // 
+            textBox11.Location = new Point(447, 198);
+            textBox11.Name = "textBox11";
+            textBox11.Size = new Size(178, 23);
+            textBox11.TabIndex = 24;
+            // 
+            // textBox10
+            // 
+            textBox10.Location = new Point(448, 169);
+            textBox10.Name = "textBox10";
+            textBox10.Size = new Size(178, 23);
+            textBox10.TabIndex = 23;
+            // 
+            // textBox9
+            // 
+            textBox9.Location = new Point(447, 140);
+            textBox9.Name = "textBox9";
+            textBox9.Size = new Size(116, 23);
+            textBox9.TabIndex = 22;
+            // 
+            // textBox7
+            // 
+            textBox7.Location = new Point(448, 82);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(178, 23);
+            textBox7.TabIndex = 20;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.Red;
+            label5.Location = new Point(342, 56);
+            label5.Name = "label5";
+            label5.Size = new Size(100, 15);
+            label5.TabIndex = 19;
+            label5.Text = "State / Province:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Red;
+            label1.Location = new Point(388, 26);
+            label1.Name = "label1";
+            label1.Size = new Size(54, 15);
+            label1.TabIndex = 16;
+            label1.Text = "Country:";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(12, 201);
+            label4.Name = "label4";
+            label4.Size = new Size(65, 15);
+            label4.TabIndex = 15;
+            label4.Text = "Timezone:";
+            label4.Click += label4_Click_1;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(31, 172);
+            label3.Name = "label3";
+            label3.Size = new Size(45, 15);
+            label3.TabIndex = 14;
+            label3.Text = "Metro:";
+            label3.Click += label3_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(38, 143);
+            label2.Name = "label2";
+            label2.Size = new Size(39, 15);
+            label2.TabIndex = 13;
+            label2.Text = "Email:";
+            label2.Click += label2_Click;
+            // 
+            // lblPhone2
+            // 
+            lblPhone2.AutoSize = true;
+            lblPhone2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblPhone2.Location = new Point(22, 114);
+            lblPhone2.Name = "lblPhone2";
+            lblPhone2.Size = new Size(55, 15);
+            lblPhone2.TabIndex = 11;
+            lblPhone2.Text = "Phone 2:";
+            lblPhone2.Click += label1_Click;
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(82, 169);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(178, 23);
+            textBox3.TabIndex = 8;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(83, 140);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(178, 23);
+            textBox2.TabIndex = 7;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(83, 111);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(177, 23);
+            textBox1.TabIndex = 6;
+            // 
+            // txtPhone
+            // 
+            txtPhone.Location = new Point(83, 82);
+            txtPhone.Name = "txtPhone";
+            txtPhone.Size = new Size(177, 23);
+            txtPhone.TabIndex = 5;
+            // 
+            // lblAddJob_Job_Phone
+            // 
+            lblAddJob_Job_Phone.AutoSize = true;
+            lblAddJob_Job_Phone.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblAddJob_Job_Phone.ForeColor = Color.Red;
+            lblAddJob_Job_Phone.Location = new Point(30, 85);
+            lblAddJob_Job_Phone.Name = "lblAddJob_Job_Phone";
+            lblAddJob_Job_Phone.Size = new Size(45, 15);
+            lblAddJob_Job_Phone.TabIndex = 4;
+            lblAddJob_Job_Phone.Text = "Phone:";
+            // 
+            // txtName
+            // 
+            txtName.Location = new Point(82, 53);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(178, 23);
+            txtName.TabIndex = 3;
+            // 
+            // lblAddJob_Job_Name
+            // 
+            lblAddJob_Job_Name.AutoSize = true;
+            lblAddJob_Job_Name.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblAddJob_Job_Name.Location = new Point(32, 53);
+            lblAddJob_Job_Name.Name = "lblAddJob_Job_Name";
+            lblAddJob_Job_Name.Size = new Size(43, 15);
+            lblAddJob_Job_Name.TabIndex = 2;
+            lblAddJob_Job_Name.Text = "Name:";
+            // 
+            // txtCompany
+            // 
+            txtCompany.Location = new Point(83, 23);
+            txtCompany.Name = "txtCompany";
+            txtCompany.Size = new Size(178, 23);
+            txtCompany.TabIndex = 1;
+            // 
+            // lblAddJob_Job_Company
+            // 
+            lblAddJob_Job_Company.AutoSize = true;
+            lblAddJob_Job_Company.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblAddJob_Job_Company.Location = new Point(16, 26);
+            lblAddJob_Job_Company.Name = "lblAddJob_Job_Company";
+            lblAddJob_Job_Company.Size = new Size(61, 15);
+            lblAddJob_Job_Company.TabIndex = 0;
+            lblAddJob_Job_Company.Text = "Company:";
+            lblAddJob_Job_Company.Click += lblAddJob_Job_Company_Click;
+            // 
+            // tabAddJob_Log
+            // 
+            tabAddJob_Log.Location = new Point(4, 24);
+            tabAddJob_Log.Name = "tabAddJob_Log";
+            tabAddJob_Log.Padding = new Padding(3);
+            tabAddJob_Log.Size = new Size(1073, 665);
+            tabAddJob_Log.TabIndex = 1;
+            tabAddJob_Log.Text = "Log";
+            tabAddJob_Log.UseVisualStyleBackColor = true;
+            // 
+            // tabJobs
+            // 
+            tabJobs.BackColor = Color.Transparent;
+            tabJobs.Controls.Add(tabJobs_ControlTabs);
+            tabJobs.Location = new Point(4, 24);
+            tabJobs.Name = "tabJobs";
+            tabJobs.Padding = new Padding(3);
+            tabJobs.Size = new Size(1087, 699);
+            tabJobs.TabIndex = 1;
+            tabJobs.Text = "Jobs";
+            // 
+            // tabJobs_ControlTabs
+            // 
+            tabJobs_ControlTabs.Controls.Add(tabJobs_JobList);
+            tabJobs_ControlTabs.Controls.Add(tabJobs_Calendar);
+            tabJobs_ControlTabs.Dock = DockStyle.Fill;
+            tabJobs_ControlTabs.Location = new Point(3, 3);
+            tabJobs_ControlTabs.Name = "tabJobs_ControlTabs";
+            tabJobs_ControlTabs.SelectedIndex = 0;
+            tabJobs_ControlTabs.Size = new Size(1081, 693);
+            tabJobs_ControlTabs.TabIndex = 0;
+            // 
+            // tabJobs_JobList
+            // 
+            tabJobs_JobList.BackColor = Color.Transparent;
+            tabJobs_JobList.Location = new Point(4, 24);
+            tabJobs_JobList.Name = "tabJobs_JobList";
+            tabJobs_JobList.Padding = new Padding(3);
+            tabJobs_JobList.Size = new Size(1073, 665);
+            tabJobs_JobList.TabIndex = 0;
+            tabJobs_JobList.Text = "Jobs List";
+            // 
+            // tabJobs_Calendar
+            // 
+            tabJobs_Calendar.Location = new Point(4, 24);
+            tabJobs_Calendar.Name = "tabJobs_Calendar";
+            tabJobs_Calendar.Padding = new Padding(3);
+            tabJobs_Calendar.Size = new Size(1073, 665);
+            tabJobs_Calendar.TabIndex = 1;
+            tabJobs_Calendar.Text = "Calendar";
+            tabJobs_Calendar.UseVisualStyleBackColor = true;
+            // 
+            // tabMessages
+            // 
+            tabMessages.Controls.Add(tabMessages_ControlTabs);
+            tabMessages.Location = new Point(4, 24);
+            tabMessages.Name = "tabMessages";
+            tabMessages.Padding = new Padding(3);
+            tabMessages.Size = new Size(1087, 699);
+            tabMessages.TabIndex = 2;
+            tabMessages.Text = "Messages";
+            tabMessages.UseVisualStyleBackColor = true;
+            // 
+            // tabMessages_ControlTabs
+            // 
+            tabMessages_ControlTabs.Controls.Add(tabMessages_Messages);
+            tabMessages_ControlTabs.Dock = DockStyle.Fill;
+            tabMessages_ControlTabs.Location = new Point(3, 3);
+            tabMessages_ControlTabs.Name = "tabMessages_ControlTabs";
+            tabMessages_ControlTabs.SelectedIndex = 0;
+            tabMessages_ControlTabs.Size = new Size(1081, 693);
+            tabMessages_ControlTabs.TabIndex = 0;
+            // 
+            // tabMessages_Messages
+            // 
+            tabMessages_Messages.Location = new Point(4, 24);
+            tabMessages_Messages.Name = "tabMessages_Messages";
+            tabMessages_Messages.Padding = new Padding(3);
+            tabMessages_Messages.Size = new Size(1073, 665);
+            tabMessages_Messages.TabIndex = 0;
+            tabMessages_Messages.Text = "Messages";
+            tabMessages_Messages.UseVisualStyleBackColor = true;
+            // 
+            // tabSearch
+            // 
+            tabSearch.Controls.Add(tabSearch_ControlTabs);
+            tabSearch.Location = new Point(4, 24);
+            tabSearch.Name = "tabSearch";
+            tabSearch.Padding = new Padding(3);
+            tabSearch.Size = new Size(1087, 699);
+            tabSearch.TabIndex = 3;
+            tabSearch.Text = "Search";
+            tabSearch.UseVisualStyleBackColor = true;
+            // 
+            // tabSearch_ControlTabs
+            // 
+            tabSearch_ControlTabs.Controls.Add(tabSearch_Search);
+            tabSearch_ControlTabs.Dock = DockStyle.Fill;
+            tabSearch_ControlTabs.Location = new Point(3, 3);
+            tabSearch_ControlTabs.Name = "tabSearch_ControlTabs";
+            tabSearch_ControlTabs.SelectedIndex = 0;
+            tabSearch_ControlTabs.Size = new Size(1081, 693);
+            tabSearch_ControlTabs.TabIndex = 0;
+            // 
+            // tabSearch_Search
+            // 
+            tabSearch_Search.BackColor = Color.Transparent;
+            tabSearch_Search.Location = new Point(4, 24);
+            tabSearch_Search.Name = "tabSearch_Search";
+            tabSearch_Search.Padding = new Padding(3);
+            tabSearch_Search.Size = new Size(1073, 665);
+            tabSearch_Search.TabIndex = 0;
+            tabSearch_Search.Text = "Search";
+            // 
+            // tabReports
+            // 
+            tabReports.Controls.Add(tabReports_ControlTabs);
+            tabReports.Location = new Point(4, 24);
+            tabReports.Name = "tabReports";
+            tabReports.Padding = new Padding(3);
+            tabReports.Size = new Size(1087, 699);
+            tabReports.TabIndex = 4;
+            tabReports.Text = "Reports";
+            tabReports.UseVisualStyleBackColor = true;
+            // 
+            // tabReports_ControlTabs
+            // 
+            tabReports_ControlTabs.Controls.Add(tabReoprts_Payments);
+            tabReports_ControlTabs.Controls.Add(tabReports_Technicians);
+            tabReports_ControlTabs.Dock = DockStyle.Fill;
+            tabReports_ControlTabs.Location = new Point(3, 3);
+            tabReports_ControlTabs.Name = "tabReports_ControlTabs";
+            tabReports_ControlTabs.SelectedIndex = 0;
+            tabReports_ControlTabs.Size = new Size(1081, 693);
+            tabReports_ControlTabs.TabIndex = 0;
+            // 
+            // tabReoprts_Payments
+            // 
+            tabReoprts_Payments.Location = new Point(4, 24);
+            tabReoprts_Payments.Name = "tabReoprts_Payments";
+            tabReoprts_Payments.Padding = new Padding(3);
+            tabReoprts_Payments.Size = new Size(1073, 665);
+            tabReoprts_Payments.TabIndex = 0;
+            tabReoprts_Payments.Text = "Payments";
+            tabReoprts_Payments.UseVisualStyleBackColor = true;
+            // 
+            // tabReports_Technicians
+            // 
+            tabReports_Technicians.Location = new Point(4, 24);
+            tabReports_Technicians.Name = "tabReports_Technicians";
+            tabReports_Technicians.Padding = new Padding(3);
+            tabReports_Technicians.Size = new Size(1073, 665);
+            tabReports_Technicians.TabIndex = 2;
+            tabReports_Technicians.Text = "Technicians";
+            tabReports_Technicians.UseVisualStyleBackColor = true;
+            // 
+            // tabSettings
+            // 
+            tabSettings.Controls.Add(tabSettings_ControlTabs);
+            tabSettings.Location = new Point(4, 24);
+            tabSettings.Name = "tabSettings";
+            tabSettings.Padding = new Padding(3);
+            tabSettings.Size = new Size(1087, 699);
+            tabSettings.TabIndex = 5;
+            tabSettings.Text = "Settings";
+            tabSettings.UseVisualStyleBackColor = true;
+            // 
+            // tabSettings_ControlTabs
+            // 
+            tabSettings_ControlTabs.Controls.Add(tabSettings_Companies);
+            tabSettings_ControlTabs.Controls.Add(tabSettings_Technicians);
+            tabSettings_ControlTabs.Controls.Add(tabSettings_Jobs);
+            tabSettings_ControlTabs.Controls.Add(tabSettings_User);
+            tabSettings_ControlTabs.Controls.Add(tabSettings_System);
+            tabSettings_ControlTabs.Controls.Add(tabSettings_Reports);
+            tabSettings_ControlTabs.Controls.Add(tabSettings_Integrations);
+            tabSettings_ControlTabs.Dock = DockStyle.Fill;
+            tabSettings_ControlTabs.Location = new Point(3, 3);
+            tabSettings_ControlTabs.Name = "tabSettings_ControlTabs";
+            tabSettings_ControlTabs.SelectedIndex = 0;
+            tabSettings_ControlTabs.Size = new Size(1081, 693);
+            tabSettings_ControlTabs.TabIndex = 0;
+            // 
+            // tabSettings_Companies
+            // 
+            tabSettings_Companies.Location = new Point(4, 24);
+            tabSettings_Companies.Name = "tabSettings_Companies";
+            tabSettings_Companies.Padding = new Padding(3);
+            tabSettings_Companies.Size = new Size(1073, 665);
+            tabSettings_Companies.TabIndex = 0;
+            tabSettings_Companies.Text = "Companies";
+            tabSettings_Companies.UseVisualStyleBackColor = true;
+            // 
+            // tabSettings_Technicians
+            // 
+            tabSettings_Technicians.Location = new Point(4, 24);
+            tabSettings_Technicians.Name = "tabSettings_Technicians";
+            tabSettings_Technicians.Padding = new Padding(3);
+            tabSettings_Technicians.Size = new Size(1073, 665);
+            tabSettings_Technicians.TabIndex = 1;
+            tabSettings_Technicians.Text = "Technicians";
+            tabSettings_Technicians.UseVisualStyleBackColor = true;
+            // 
+            // tabSettings_Jobs
+            // 
+            tabSettings_Jobs.Location = new Point(4, 24);
+            tabSettings_Jobs.Name = "tabSettings_Jobs";
+            tabSettings_Jobs.Padding = new Padding(3);
+            tabSettings_Jobs.Size = new Size(1073, 665);
+            tabSettings_Jobs.TabIndex = 2;
+            tabSettings_Jobs.Text = "Jobs";
+            tabSettings_Jobs.UseVisualStyleBackColor = true;
+            // 
+            // tabSettings_User
+            // 
+            tabSettings_User.Location = new Point(4, 24);
+            tabSettings_User.Name = "tabSettings_User";
+            tabSettings_User.Padding = new Padding(3);
+            tabSettings_User.Size = new Size(1073, 665);
+            tabSettings_User.TabIndex = 3;
+            tabSettings_User.Text = "Users";
+            tabSettings_User.UseVisualStyleBackColor = true;
+            // 
+            // tabSettings_System
+            // 
+            tabSettings_System.Location = new Point(4, 24);
+            tabSettings_System.Name = "tabSettings_System";
+            tabSettings_System.Padding = new Padding(3);
+            tabSettings_System.Size = new Size(1073, 665);
+            tabSettings_System.TabIndex = 4;
+            tabSettings_System.Text = "System";
+            tabSettings_System.UseVisualStyleBackColor = true;
+            // 
+            // tabSettings_Reports
+            // 
+            tabSettings_Reports.Location = new Point(4, 24);
+            tabSettings_Reports.Name = "tabSettings_Reports";
+            tabSettings_Reports.Padding = new Padding(3);
+            tabSettings_Reports.Size = new Size(1073, 665);
+            tabSettings_Reports.TabIndex = 5;
+            tabSettings_Reports.Text = "Reports";
+            tabSettings_Reports.UseVisualStyleBackColor = true;
+            // 
+            // tabSettings_Integrations
+            // 
+            tabSettings_Integrations.Location = new Point(4, 24);
+            tabSettings_Integrations.Name = "tabSettings_Integrations";
+            tabSettings_Integrations.Padding = new Padding(3);
+            tabSettings_Integrations.Size = new Size(1073, 665);
+            tabSettings_Integrations.TabIndex = 6;
+            tabSettings_Integrations.Text = "Integrations";
+            tabSettings_Integrations.UseVisualStyleBackColor = true;
+            // 
+            // pnlUser
+            // 
+            pnlUser.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            pnlUser.Controls.Add(btnLogout);
+            pnlUser.Controls.Add(lblUserName);
+            pnlUser.Location = new Point(896, 0);
+            pnlUser.Name = "pnlUser";
+            pnlUser.Size = new Size(199, 54);
+            pnlUser.TabIndex = 1;
+            // 
+            // btnLogout
+            // 
+            btnLogout.BackColor = Color.Red;
+            btnLogout.Dock = DockStyle.Bottom;
+            btnLogout.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLogout.ForeColor = SystemColors.HighlightText;
+            btnLogout.Location = new Point(0, 31);
+            btnLogout.Name = "btnLogout";
+            btnLogout.Size = new Size(199, 23);
+            btnLogout.TabIndex = 1;
+            btnLogout.Text = "LOGOUT";
+            btnLogout.UseVisualStyleBackColor = false;
+            // 
+            // lblUserName
+            // 
+            lblUserName.AutoSize = true;
+            lblUserName.Location = new Point(75, 3);
+            lblUserName.Name = "lblUserName";
+            lblUserName.Size = new Size(39, 15);
+            lblUserName.TabIndex = 0;
+            lblUserName.Text = "Name";
+            lblUserName.Click += label4_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1095, 593);
-            Controls.Add(tabControl1);
+            BackColor = Color.SteelBlue;
+            ClientSize = new Size(1095, 727);
+            Controls.Add(pnlUser);
+            Controls.Add(tabMain);
             Name = "Form1";
             Text = "Garage Door Services";
             Load += Form1_Load;
-            tabControl1.ResumeLayout(false);
-            tabPage1.ResumeLayout(false);
-            tabPage2.ResumeLayout(false);
-            tabPage3.ResumeLayout(false);
-            tabPage4.ResumeLayout(false);
-            tabPage5.ResumeLayout(false);
-            tabPage6.ResumeLayout(false);
-            tabControl2.ResumeLayout(false);
-            tabControl3.ResumeLayout(false);
-            tabControl4.ResumeLayout(false);
-            tabControl5.ResumeLayout(false);
-            tabControl6.ResumeLayout(false);
-            tabControl7.ResumeLayout(false);
+            tabMain.ResumeLayout(false);
+            tabAddJob.ResumeLayout(false);
+            tabAddJob_ControlTabs.ResumeLayout(false);
+            tabAddJob_Job.ResumeLayout(false);
+            tabAddJob_Job.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            tabJobs.ResumeLayout(false);
+            tabJobs_ControlTabs.ResumeLayout(false);
+            tabMessages.ResumeLayout(false);
+            tabMessages_ControlTabs.ResumeLayout(false);
+            tabSearch.ResumeLayout(false);
+            tabSearch_ControlTabs.ResumeLayout(false);
+            tabReports.ResumeLayout(false);
+            tabReports_ControlTabs.ResumeLayout(false);
+            tabSettings.ResumeLayout(false);
+            tabSettings_ControlTabs.ResumeLayout(false);
+            pnlUser.ResumeLayout(false);
+            pnlUser.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private TabControl tabControl1;
-        private TabPage tabPage1;
-        private TabPage tabPage2;
-        private TabPage tabPage3;
-        private TabPage tabPage4;
-        private TabPage tabPage5;
-        private TabPage tabPage6;
-        private TabPage tabPage7;
-        private TabControl tabControl2;
-        private TabPage tabPage8;
-        private TabPage tabPage9;
-        private TabPage tabPage10;
-        private TabControl tabControl3;
-        private TabPage tabPage11;
-        private TabPage tabPage12;
-        private TabPage tabPage13;
-        private TabPage tabPage14;
-        private TabControl tabControl4;
-        private TabPage tabPage15;
-        private TabPage tabPage16;
-        private TabPage tabPage17;
-        private TabControl tabControl5;
-        private TabPage tabPage18;
-        private TabControl tabControl6;
-        private TabPage tabPage19;
-        private TabPage tabPage20;
-        private TabPage tabPage21;
-        private TabPage tabPage22;
-        private TabPage tabPage23;
-        private TabPage tabPage24;
-        private TabPage tabPage25;
-        private TabControl tabControl7;
-        private TabPage tabPage26;
-        private TabPage tabPage27;
-        private TabPage tabPage28;
-        private TabPage tabPage29;
-        private TabPage tabPage30;
-        private TabPage tabPage31;
-        private TabPage tabPage32;
-        private TabPage tabPage33;
+        private TabControl tabMain;
+        private TabPage tabAddJob;
+        private TabPage tabJobs;
+        private TabPage tabMessages;
+        private TabPage tabSearch;
+        private TabPage tabReports;
+        private TabPage tabSettings;
+        private TabControl tabAddJob_ControlTabs;
+        private TabPage tabAddJob_Job;
+        private TabPage tabAddJob_Log;
+        private TabControl tabJobs_ControlTabs;
+        private TabPage tabJobs_JobList;
+        private TabPage tabJobs_Calendar;
+        private TabControl tabMessages_ControlTabs;
+        private TabPage tabMessages_Messages;
+        private TabControl tabSearch_ControlTabs;
+        private TabPage tabSearch_Search;
+        private TabControl tabReports_ControlTabs;
+        private TabPage tabReoprts_Payments;
+        private TabPage tabReports_Technicians;
+        private TabControl tabSettings_ControlTabs;
+        private TabPage tabSettings_Companies;
+        private TabPage tabSettings_Technicians;
+        private TabPage tabSettings_Jobs;
+        private TabPage tabSettings_User;
+        private TabPage tabSettings_System;
+        private TabPage tabSettings_Reports;
+        private TabPage tabSettings_Integrations;
+        private TextBox txtName;
+        private Label lblAddJob_Job_Name;
+        private TextBox txtCompany;
+        private Label lblAddJob_Job_Company;
+        private TextBox txtPhone;
+        private Label lblAddJob_Job_Phone;
+        private Panel pnlUser;
+        private Label lblUserName;
+        private Button btnLogout;
+        private Label lblPhone2;
+        private TextBox textBox3;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private Label label3;
+        private Label label2;
+        private Label label4;
+        private Label label1;
+        private Button button1;
+        private Label label10;
+        private Label label9;
+        private Label label8;
+        private Label label7;
+        private Label label6;
+        private TextBox textBox11;
+        private TextBox textBox10;
+        private TextBox textBox9;
+        private TextBox textBox7;
+        private Label label5;
+        private ComboBox cboTimezone;
+        private TextBox textBox4;
+        private ComboBox comboBox3;
+        private ComboBox comboBox2;
+        private ComboBox comboBox1;
+        private Label label11;
+        private ComboBox comboBox6;
+        private Label label14;
+        private ComboBox comboBox5;
+        private Label label13;
+        private ComboBox comboBox8;
+        private Label label16;
+        private CheckBox checkBox3;
+        private CheckBox checkBox1;
+        private ComboBox comboBox7;
+        private Label label15;
+        private DateTimePicker dateTimePicker2;
+        private GroupBox groupBox1;
+        private DateTimePicker dateTimePicker1;
+        private Label label17;
+        private Button button2;
+        private Label label19;
+        private Label label18;
+        private Button button3;
+        private PictureBox pictureBox1;
+        private RadioButton radioButton1;
+        private RadioButton radioButton7;
+        private RadioButton radioButton6;
+        private RadioButton radioButton5;
+        private RadioButton radioButton4;
+        private RadioButton radioButton3;
+        private RadioButton radioButton2;
+        private RadioButton radioButton8;
+        private ComboBox comboBox9;
+        private ComboBox comboBox10;
     }
 }
