@@ -188,7 +188,6 @@
             tabAddJob.Size = new Size(1087, 936);
             tabAddJob.TabIndex = 0;
             tabAddJob.Text = "Add Job";
-            tabAddJob.Click += tabPage1_Click;
             // 
             // tabAddJob_ControlTabs
             // 
@@ -266,7 +265,6 @@
             tabAddJob_Job.Size = new Size(1073, 902);
             tabAddJob_Job.TabIndex = 0;
             tabAddJob_Job.Text = "Job";
-            tabAddJob_Job.Click += tabAddJob_Job_Click;
             // 
             // groupBox3
             // 
@@ -339,7 +337,6 @@
             label27.Size = new Size(53, 15);
             label27.TabIndex = 75;
             label27.Text = "Balance:";
-            label27.Click += label27_Click;
             // 
             // label26
             // 
@@ -394,7 +391,6 @@
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(189, 23);
             textBox8.TabIndex = 69;
-            textBox8.TextChanged += textBox8_TextChanged;
             // 
             // label23
             // 
@@ -415,7 +411,6 @@
             comboBox4.Name = "comboBox4";
             comboBox4.Size = new Size(151, 23);
             comboBox4.TabIndex = 67;
-            comboBox4.SelectedIndexChanged += comboBox4_SelectedIndexChanged;
             // 
             // textBox6
             // 
@@ -619,7 +614,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 54;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // button3
             // 
@@ -631,7 +625,6 @@
             button3.TabIndex = 53;
             button3.Text = "Save Job";
             button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
             // 
             // dateTimePicker2
             // 
@@ -686,7 +679,6 @@
             button2.TabIndex = 58;
             button2.Text = "Clear Appointment\r\n";
             button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
             // 
             // label19
             // 
@@ -698,7 +690,6 @@
             label19.Size = new Size(27, 15);
             label19.TabIndex = 56;
             label19.Text = "and";
-            label19.Click += label19_Click;
             // 
             // label18
             // 
@@ -721,7 +712,6 @@
             label17.Size = new Size(37, 15);
             label17.TabIndex = 53;
             label17.Text = "Date:";
-            label17.Click += label17_Click;
             // 
             // dateTimePicker1
             // 
@@ -803,7 +793,6 @@
             comboBox6.Size = new Size(196, 23);
             comboBox6.TabIndex = 43;
             comboBox6.Text = "Select an Ad Source";
-            comboBox6.SelectedIndexChanged += comboBox6_SelectedIndexChanged;
             // 
             // label14
             // 
@@ -900,7 +889,6 @@
             button1.TabIndex = 30;
             button1.Text = "Map it";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // label10
             // 
@@ -1014,7 +1002,6 @@
             label4.Size = new Size(65, 15);
             label4.TabIndex = 15;
             label4.Text = "Timezone:";
-            label4.Click += label4_Click_1;
             // 
             // label3
             // 
@@ -1025,7 +1012,6 @@
             label3.Size = new Size(45, 15);
             label3.TabIndex = 14;
             label3.Text = "Metro:";
-            label3.Click += label3_Click;
             // 
             // label2
             // 
@@ -1036,7 +1022,6 @@
             label2.Size = new Size(39, 15);
             label2.TabIndex = 13;
             label2.Text = "Email:";
-            label2.Click += label2_Click;
             // 
             // lblPhone2
             // 
@@ -1047,7 +1032,6 @@
             lblPhone2.Size = new Size(55, 15);
             lblPhone2.TabIndex = 11;
             lblPhone2.Text = "Phone 2:";
-            lblPhone2.Click += label1_Click;
             // 
             // textBox3
             // 
@@ -1121,7 +1105,6 @@
             lblAddJob_Job_Company.Size = new Size(61, 15);
             lblAddJob_Job_Company.TabIndex = 0;
             lblAddJob_Job_Company.Text = "Company:";
-            lblAddJob_Job_Company.Click += lblAddJob_Job_Company_Click;
             // 
             // tabAddJob_Log
             // 
@@ -1407,7 +1390,6 @@
             lblUserName.Size = new Size(39, 15);
             lblUserName.TabIndex = 0;
             lblUserName.Text = "Name";
-            lblUserName.Click += label4_Click;
             // 
             // Form1
             // 
